@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
@@ -64,6 +65,8 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.lookUpEdit6 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit5 = new DevExpress.XtraEditors.LookUpEdit();
+            this.spConsumoDS1 = new RPSuite.Datasets.Documentos.spConsumoDS();
+            this.spConsumoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).BeginInit();
             this.tbControl.SuspendLayout();
             this.tpDatos.SuspendLayout();
@@ -89,6 +92,8 @@
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tbControl
@@ -428,6 +433,16 @@
             this.lookUpEdit5.Size = new System.Drawing.Size(78, 20);
             this.lookUpEdit5.TabIndex = 20;
             // 
+            // spConsumoDS1
+            // 
+            this.spConsumoDS1.DataSetName = "spConsumoDS";
+            this.spConsumoDS1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // spConsumoBindingSource
+            // 
+            this.spConsumoBindingSource.DataMember = "spConsumo";
+            this.spConsumoBindingSource.DataSource = this.spConsumoDS1;
+            // 
             // frmConsumo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -461,6 +476,8 @@
             this.groupControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -502,5 +519,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit6;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit5;
+        private Datasets.Documentos.spConsumoDS spConsumoDS1;
+        private System.Windows.Forms.BindingSource spConsumoBindingSource;
     }
 }
