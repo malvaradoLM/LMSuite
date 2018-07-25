@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="spCatClienteDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="spCatClienteDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="spCatCliente" msprop:Schema="spCatCliente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClienteID" type="xs:int" />
+              <xs:element name="Nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RazonSocial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RFC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlazoPago" type="xs:int" minOccurs="0" />
+              <xs:element name="Estatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaIngreso" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NIP" type="xs:int" minOccurs="0" />
+              <xs:element name="FechaBaja" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LimiteCredito" type="xs:double" />
+              <xs:element name="Deposito" type="xs:double" minOccurs="0" />
+              <xs:element name="CambioCredito" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CambioCreditoAnterior" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UltimoPago" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TarjetaID" type="xs:int" minOccurs="0" />
+              <xs:element name="Clasificacion" type="xs:int" minOccurs="0" />
+              <xs:element name="AfectaHistorico" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DiaRevisionID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DiaPagoID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AutorizaCheque" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TicketBoucher" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AutorizaValeCredito" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FacturayLiquidacion" type="xs:boolean" minOccurs="0" />
+              <xs:element name="VendedorID" type="xs:int" minOccurs="0" />
+              <xs:element name="GrupoFacturarID" type="xs:int" minOccurs="0" />
+              <xs:element name="GrupoClienteID" type="xs:int" minOccurs="0" />
+              <xs:element name="GasolineroID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="spCatVendedor" msprop:Schema="spCatVendedor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VendedorID" type="xs:int" />
+              <xs:element name="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="spCatGasolinero" msprop:Schema="spCatGasolinero">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GasolineroID" type="xs:int" />
+              <xs:element name="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Razon_x0020_Social" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Direccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RFC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="spCatGrupoCliente" msprop:Schema="spCatGrupoCliente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GrupoClienteID" type="xs:int" />
+              <xs:element name="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="spCatGrupoFactura" msprop:Schema="spCatGrupoFactura">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GrupoFacturarID" type="xs:int" />
+              <xs:element name="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PK_spCatCliente" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//spCatCliente" />
+      <xs:field xpath="ClienteID" />
+    </xs:unique>
+    <xs:unique name="PK_spCatGrupoCliente" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//spCatGrupoCliente" />
+      <xs:field xpath="GrupoClienteID" />
+    </xs:unique>
+    <xs:unique name="PK_spCatGrupoFactura" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//spCatGrupoFactura" />
+      <xs:field xpath="GrupoFacturarID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
