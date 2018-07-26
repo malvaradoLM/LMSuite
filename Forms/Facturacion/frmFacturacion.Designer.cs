@@ -77,7 +77,6 @@
             // 
             // tbControl
             // 
-            this.tbControl.SelectedTabPage = this.tpDatos;
             this.tbControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.tpObservaciones});
             this.tbControl.Controls.SetChildIndex(this.tpObservaciones, 0);

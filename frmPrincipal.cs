@@ -131,7 +131,7 @@ namespace RPSuite
 
         private void tileItem2_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
-            ModuleInfoCollection.ShowModuleByName("CatalogoBanco", this);
+            ModuleInfoCollection.ShowModuleByName("liquidacion", this);
             bvcMenuPrincipal.Close();
             
         }
@@ -332,6 +332,12 @@ namespace RPSuite
         private void tileItem15_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             ModuleInfoCollection.ShowModuleByName("CatalogoUsuario", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timDeposito_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("Depositos", this);
             bvcMenuPrincipal.Close();
         }
     }

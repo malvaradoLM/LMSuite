@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace RPSuite.Forms.Liquidacion
 {
-    public partial class frmLiquidacion : RPSuite.Base.frmEstructuraBase
+    public partial class frmDeposito : RPSuite.Base.frmEstructuraBase
     {
-        public frmLiquidacion()
+        public frmDeposito()
         {
             InitializeComponent();
         }

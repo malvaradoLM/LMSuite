@@ -47,6 +47,10 @@ namespace RPSuite.Base
             //Almacen
             ModuleInfoCollection.Add("Almacen", typeof(frmAlmacen));
 
+            //Liquidacion
+                ModuleInfoCollection.Add("liquidacion", typeof(frmLiquidacion));
+                ModuleInfoCollection.Add("Depositos", typeof(frmDeposito));
+
 
 
 
