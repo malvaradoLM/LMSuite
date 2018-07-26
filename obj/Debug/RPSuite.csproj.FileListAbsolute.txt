@@ -1598,3 +1598,4 @@ C:\LM2\LMSuite\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\LM2\LMSuite\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\LM2\LMSuite\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\LM2\LMSuite\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\LM2\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmDeposito.resources

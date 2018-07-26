@@ -14,6 +14,12 @@ namespace RPSuite.Forms.Consumo
         {
             InitializeComponent();
             DataSource = spConsumoBindingSource;
+
+            //getCliente();
+            //getVehiculo);
+            //getGasolinero();
+            //getTipo();
+            //getProducto();
         }
     }
 }
