@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
@@ -62,8 +63,10 @@
             this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.lookUpEdit5 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit6 = new DevExpress.XtraEditors.LookUpEdit();
+            this.lookUpEdit5 = new DevExpress.XtraEditors.LookUpEdit();
+            this.spConsumoDS1 = new RPSuite.Datasets.Documentos.spConsumoDS();
+            this.spConsumoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).BeginInit();
             this.tbControl.SuspendLayout();
             this.tpDatos.SuspendLayout();
@@ -87,8 +90,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tbControl
@@ -249,7 +254,7 @@
             // 
             // labelControl17
             // 
-            this.labelControl17.Location = new System.Drawing.Point(292, 277);
+            this.labelControl17.Location = new System.Drawing.Point(246, 277);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(49, 13);
             this.labelControl17.TabIndex = 16;
@@ -257,7 +262,7 @@
             // 
             // labelControl18
             // 
-            this.labelControl18.Location = new System.Drawing.Point(292, 322);
+            this.labelControl18.Location = new System.Drawing.Point(246, 322);
             this.labelControl18.Name = "labelControl18";
             this.labelControl18.Size = new System.Drawing.Size(22, 13);
             this.labelControl18.TabIndex = 17;
@@ -350,14 +355,14 @@
             // 
             // textEdit10
             // 
-            this.textEdit10.Location = new System.Drawing.Point(292, 296);
+            this.textEdit10.Location = new System.Drawing.Point(246, 296);
             this.textEdit10.Name = "textEdit10";
             this.textEdit10.Size = new System.Drawing.Size(79, 20);
             this.textEdit10.TabIndex = 31;
             // 
             // textEdit11
             // 
-            this.textEdit11.Location = new System.Drawing.Point(292, 341);
+            this.textEdit11.Location = new System.Drawing.Point(246, 341);
             this.textEdit11.Name = "textEdit11";
             this.textEdit11.Size = new System.Drawing.Size(79, 20);
             this.textEdit11.TabIndex = 32;
@@ -410,6 +415,15 @@
             this.groupControl1.TabIndex = 36;
             this.groupControl1.Text = "Tarjeta";
             // 
+            // lookUpEdit6
+            // 
+            this.lookUpEdit6.Location = new System.Drawing.Point(262, 43);
+            this.lookUpEdit6.Name = "lookUpEdit6";
+            this.lookUpEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpEdit6.Size = new System.Drawing.Size(78, 20);
+            this.lookUpEdit6.TabIndex = 21;
+            // 
             // lookUpEdit5
             // 
             this.lookUpEdit5.Location = new System.Drawing.Point(178, 43);
@@ -419,14 +433,15 @@
             this.lookUpEdit5.Size = new System.Drawing.Size(78, 20);
             this.lookUpEdit5.TabIndex = 20;
             // 
-            // lookUpEdit6
+            // spConsumoDS1
             // 
-            this.lookUpEdit6.Location = new System.Drawing.Point(262, 43);
-            this.lookUpEdit6.Name = "lookUpEdit6";
-            this.lookUpEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit6.Size = new System.Drawing.Size(78, 20);
-            this.lookUpEdit6.TabIndex = 21;
+            this.spConsumoDS1.DataSetName = "spConsumoDS";
+            this.spConsumoDS1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // spConsumoBindingSource
+            // 
+            this.spConsumoBindingSource.DataMember = "spConsumo";
+            this.spConsumoBindingSource.DataSource = this.spConsumoDS1;
             // 
             // frmConsumo
             // 
@@ -459,8 +474,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -502,5 +519,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit6;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit5;
+        private Datasets.Documentos.spConsumoDS spConsumoDS1;
+        private System.Windows.Forms.BindingSource spConsumoBindingSource;
     }
 }

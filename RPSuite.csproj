@@ -515,6 +515,11 @@
     <Compile Include="Server\RPSuiteReports_Intf.cs" />
     <Compile Include="Server\RPSuiteServer_Intf.cs" />
     <Compile Include="Server\utileriasComun.cs" />
+    <Compile Include="Datasets\Documentos\spConsumoDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spConsumoDS.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Base\BaseModule.resx">
       <DependentUpon>BaseModule.cs</DependentUpon>
     </EmbeddedResource>
@@ -940,6 +945,17 @@
     </None>
     <None Include="Datasets\Catalogos\spCatUsuarioDS.xss">
       <DependentUpon>spCatUsuarioDS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Documentos\spConsumoDS.xsc">
+      <DependentUpon>spConsumoDS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Documentos\spConsumoDS.xsd">
+      <Generator>MSDatasetGenerator</Generator>
+      <LastGenOutput>spConsumoDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\Documentos\spConsumoDS.xss">
+      <DependentUpon>spConsumoDS.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

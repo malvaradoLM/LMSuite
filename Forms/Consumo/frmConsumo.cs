@@ -13,6 +13,7 @@ namespace RPSuite.Forms.Consumo
         public frmConsumo()
         {
             InitializeComponent();
+            DataSource = spConsumoBindingSource;
         }
     }
 }
