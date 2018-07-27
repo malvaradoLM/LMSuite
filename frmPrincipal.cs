@@ -340,5 +340,11 @@ namespace RPSuite
             ModuleInfoCollection.ShowModuleByName("Depositos", this);
             bvcMenuPrincipal.Close();
         }
+
+        private void tileItem2_ItemClick_1(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("Consumo", this);
+            bvcMenuPrincipal.Close();
+        }
     }
 }

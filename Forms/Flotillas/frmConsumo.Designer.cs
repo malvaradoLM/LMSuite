@@ -46,10 +46,6 @@
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
-            this.lueCliente = new DevExpress.XtraEditors.LookUpEdit();
-            this.lueVehiculo = new DevExpress.XtraEditors.LookUpEdit();
-            this.lueProducto = new DevExpress.XtraEditors.LookUpEdit();
-            this.lueEstacion = new DevExpress.XtraEditors.LookUpEdit();
             this.txtNumTicket = new DevExpress.XtraEditors.TextEdit();
             this.txtPrecio = new DevExpress.XtraEditors.TextEdit();
             this.txtCantidad = new DevExpress.XtraEditors.TextEdit();
@@ -63,18 +59,18 @@
             this.dateFechaCarga = new DevExpress.XtraEditors.DateEdit();
             this.btnTicket = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.lueTipo = new DevExpress.XtraEditors.LookUpEdit();
-            this.lueGasolinero = new DevExpress.XtraEditors.LookUpEdit();
+            this.bedCliente = new DevExpress.XtraEditors.ButtonEdit();
+            this.bedVehiculo = new DevExpress.XtraEditors.ButtonEdit();
+            this.txtTipo = new DevExpress.XtraEditors.TextEdit();
+            this.txtGasolinero = new DevExpress.XtraEditors.TextEdit();
             this.spConsumoDS1 = new RPSuite.Datasets.Documentos.spConsumoDS();
             this.spConsumoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bedEstacion = new DevExpress.XtraEditors.ButtonEdit();
+            this.bedProducto = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).BeginInit();
             this.tbControl.SuspendLayout();
             this.tpDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueCliente.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueVehiculo.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueProducto.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueEstacion.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNumTicket.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrecio.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCantidad.Properties)).BeginInit();
@@ -90,10 +86,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateFechaCarga.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lueTipo.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueGasolinero.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedCliente.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedVehiculo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTipo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtGasolinero.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedEstacion.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedProducto.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tbControl
@@ -102,6 +102,8 @@
             // 
             // tpDatos
             // 
+            this.tpDatos.Controls.Add(this.bedProducto);
+            this.tpDatos.Controls.Add(this.bedEstacion);
             this.tpDatos.Controls.Add(this.groupControl1);
             this.tpDatos.Controls.Add(this.btnTicket);
             this.tpDatos.Controls.Add(this.dateFechaCarga);
@@ -115,8 +117,6 @@
             this.tpDatos.Controls.Add(this.txtCantidad);
             this.tpDatos.Controls.Add(this.txtPrecio);
             this.tpDatos.Controls.Add(this.txtNumTicket);
-            this.tpDatos.Controls.Add(this.lueEstacion);
-            this.tpDatos.Controls.Add(this.lueProducto);
             this.tpDatos.Controls.Add(this.labelControl18);
             this.tpDatos.Controls.Add(this.labelControl17);
             this.tpDatos.Controls.Add(this.labelControl16);
@@ -198,7 +198,7 @@
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(94, 24);
+            this.labelControl10.Location = new System.Drawing.Point(113, 24);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(39, 13);
             this.labelControl10.TabIndex = 9;
@@ -206,7 +206,7 @@
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(178, 24);
+            this.labelControl11.Location = new System.Drawing.Point(219, 24);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(50, 13);
             this.labelControl11.TabIndex = 10;
@@ -214,7 +214,7 @@
             // 
             // labelControl12
             // 
-            this.labelControl12.Location = new System.Drawing.Point(262, 24);
+            this.labelControl12.Location = new System.Drawing.Point(289, 24);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(20, 13);
             this.labelControl12.TabIndex = 11;
@@ -267,42 +267,6 @@
             this.labelControl18.Size = new System.Drawing.Size(22, 13);
             this.labelControl18.TabIndex = 17;
             this.labelControl18.Text = "IEPS";
-            // 
-            // lueCliente
-            // 
-            this.lueCliente.Location = new System.Drawing.Point(10, 43);
-            this.lueCliente.Name = "lueCliente";
-            this.lueCliente.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueCliente.Size = new System.Drawing.Size(78, 20);
-            this.lueCliente.TabIndex = 18;
-            // 
-            // lueVehiculo
-            // 
-            this.lueVehiculo.Location = new System.Drawing.Point(94, 43);
-            this.lueVehiculo.Name = "lueVehiculo";
-            this.lueVehiculo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueVehiculo.Size = new System.Drawing.Size(78, 20);
-            this.lueVehiculo.TabIndex = 19;
-            // 
-            // lueProducto
-            // 
-            this.lueProducto.Location = new System.Drawing.Point(21, 251);
-            this.lueProducto.Name = "lueProducto";
-            this.lueProducto.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueProducto.Size = new System.Drawing.Size(135, 20);
-            this.lueProducto.TabIndex = 20;
-            // 
-            // lueEstacion
-            // 
-            this.lueEstacion.Location = new System.Drawing.Point(246, 161);
-            this.lueEstacion.Name = "lueEstacion";
-            this.lueEstacion.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueEstacion.Size = new System.Drawing.Size(125, 20);
-            this.lueEstacion.TabIndex = 21;
             // 
             // txtNumTicket
             // 
@@ -401,37 +365,53 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.lueTipo);
-            this.groupControl1.Controls.Add(this.lueGasolinero);
+            this.groupControl1.Controls.Add(this.bedCliente);
+            this.groupControl1.Controls.Add(this.bedVehiculo);
+            this.groupControl1.Controls.Add(this.txtTipo);
+            this.groupControl1.Controls.Add(this.txtGasolinero);
             this.groupControl1.Controls.Add(this.labelControl9);
             this.groupControl1.Controls.Add(this.labelControl10);
             this.groupControl1.Controls.Add(this.labelControl11);
             this.groupControl1.Controls.Add(this.labelControl12);
-            this.groupControl1.Controls.Add(this.lueCliente);
-            this.groupControl1.Controls.Add(this.lueVehiculo);
             this.groupControl1.Location = new System.Drawing.Point(11, 11);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(360, 70);
             this.groupControl1.TabIndex = 36;
             this.groupControl1.Text = "Tarjeta";
             // 
-            // lueTipo
+            // bedCliente
             // 
-            this.lueTipo.Location = new System.Drawing.Point(262, 43);
-            this.lueTipo.Name = "lueTipo";
-            this.lueTipo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueTipo.Size = new System.Drawing.Size(78, 20);
-            this.lueTipo.TabIndex = 21;
+            this.bedCliente.Location = new System.Drawing.Point(10, 43);
+            this.bedCliente.Name = "bedCliente";
+            this.bedCliente.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedCliente.Size = new System.Drawing.Size(97, 20);
+            this.bedCliente.TabIndex = 26;
+            this.bedCliente.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.bedCliente_ButtonClick);
+            this.bedCliente.EditValueChanged += new System.EventHandler(this.bedCliente_EditValueChanged);
             // 
-            // lueGasolinero
+            // bedVehiculo
             // 
-            this.lueGasolinero.Location = new System.Drawing.Point(178, 43);
-            this.lueGasolinero.Name = "lueGasolinero";
-            this.lueGasolinero.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lueGasolinero.Size = new System.Drawing.Size(78, 20);
-            this.lueGasolinero.TabIndex = 20;
+            this.bedVehiculo.Location = new System.Drawing.Point(113, 43);
+            this.bedVehiculo.Name = "bedVehiculo";
+            this.bedVehiculo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedVehiculo.Size = new System.Drawing.Size(100, 20);
+            this.bedVehiculo.TabIndex = 24;
+            // 
+            // txtTipo
+            // 
+            this.txtTipo.Location = new System.Drawing.Point(289, 43);
+            this.txtTipo.Name = "txtTipo";
+            this.txtTipo.Size = new System.Drawing.Size(66, 20);
+            this.txtTipo.TabIndex = 21;
+            // 
+            // txtGasolinero
+            // 
+            this.txtGasolinero.Location = new System.Drawing.Point(219, 43);
+            this.txtGasolinero.Name = "txtGasolinero";
+            this.txtGasolinero.Size = new System.Drawing.Size(65, 20);
+            this.txtGasolinero.TabIndex = 20;
             // 
             // spConsumoDS1
             // 
@@ -442,6 +422,24 @@
             // 
             this.spConsumoBindingSource.DataMember = "spConsumo";
             this.spConsumoBindingSource.DataSource = this.spConsumoDS1;
+            // 
+            // bedEstacion
+            // 
+            this.bedEstacion.Location = new System.Drawing.Point(246, 161);
+            this.bedEstacion.Name = "bedEstacion";
+            this.bedEstacion.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedEstacion.Size = new System.Drawing.Size(125, 20);
+            this.bedEstacion.TabIndex = 25;
+            // 
+            // bedProducto
+            // 
+            this.bedProducto.Location = new System.Drawing.Point(21, 251);
+            this.bedProducto.Name = "bedProducto";
+            this.bedProducto.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedProducto.Size = new System.Drawing.Size(135, 20);
+            this.bedProducto.TabIndex = 27;
             // 
             // frmConsumo
             // 
@@ -454,10 +452,6 @@
             this.tpDatos.ResumeLayout(false);
             this.tpDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueCliente.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueVehiculo.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueProducto.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueEstacion.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNumTicket.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPrecio.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCantidad.Properties)).EndInit();
@@ -474,10 +468,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lueTipo.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lueGasolinero.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedCliente.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedVehiculo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTipo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtGasolinero.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedEstacion.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedProducto.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -496,10 +494,6 @@
         private DevExpress.XtraEditors.TextEdit txtCantidad;
         private DevExpress.XtraEditors.TextEdit txtPrecio;
         private DevExpress.XtraEditors.TextEdit txtNumTicket;
-        private DevExpress.XtraEditors.LookUpEdit lueEstacion;
-        private DevExpress.XtraEditors.LookUpEdit lueProducto;
-        private DevExpress.XtraEditors.LookUpEdit lueVehiculo;
-        private DevExpress.XtraEditors.LookUpEdit lueCliente;
         private DevExpress.XtraEditors.LabelControl labelControl18;
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.LabelControl labelControl16;
@@ -517,9 +511,13 @@
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LookUpEdit lueTipo;
-        private DevExpress.XtraEditors.LookUpEdit lueGasolinero;
         private Datasets.Documentos.spConsumoDS spConsumoDS1;
         private System.Windows.Forms.BindingSource spConsumoBindingSource;
+        private DevExpress.XtraEditors.TextEdit txtTipo;
+        private DevExpress.XtraEditors.TextEdit txtGasolinero;
+        private DevExpress.XtraEditors.ButtonEdit bedProducto;
+        private DevExpress.XtraEditors.ButtonEdit bedEstacion;
+        private DevExpress.XtraEditors.ButtonEdit bedCliente;
+        private DevExpress.XtraEditors.ButtonEdit bedVehiculo;
     }
 }

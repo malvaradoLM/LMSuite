@@ -8,6 +8,7 @@ using RPSuite.Forms;
 using RPSuite.Forms.Catalogos.Configuracion;
 using RPSuite.Forms.Liquidacion;
 using RPSuite.Forms.Inventario;
+using RPSuite.Forms.Consumo;
 
 namespace RPSuite.Base
 {
@@ -50,6 +51,9 @@ namespace RPSuite.Base
             //Liquidacion
                 ModuleInfoCollection.Add("liquidacion", typeof(frmLiquidacion));
                 ModuleInfoCollection.Add("Depositos", typeof(frmDeposito));
+
+            //Flotillas
+                ModuleInfoCollection.Add("Consumo", typeof(frmConsumo));
 
 
 
