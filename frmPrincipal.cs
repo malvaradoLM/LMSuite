@@ -340,5 +340,23 @@ namespace RPSuite
             ModuleInfoCollection.ShowModuleByName("Depositos", this);
             bvcMenuPrincipal.Close();
         }
+
+        private void timCierreMensual_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("CierreMensual", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timEntregarPremio_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("EntregarPremio", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void tileItem38_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("CatalogoPremio", this);
+            bvcMenuPrincipal.Close();
+        }
     }
 }
