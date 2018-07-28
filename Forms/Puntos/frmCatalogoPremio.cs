@@ -13,6 +13,20 @@ namespace RPSuite.Forms.Puntos
         public frmCatalogoPremio()
         {
             InitializeComponent();
+
+            cdsCatalogo = spCatPremioDS;
+            DataSource = spCatPremioBindingSource;
+            NombreDataSet = "spCatPremio";
+            Buscar("~`|`~");
+        }
+
+        public override void onBeforePost()
+        {
+            if (newRecordRow != null)
+            {
+                newRecordRow["PremioID"] = Data.DataModule.DataService.Folio("PuntosPremioID", "");
+
+            }
         }
     }
 }

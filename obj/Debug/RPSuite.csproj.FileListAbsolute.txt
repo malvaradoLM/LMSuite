@@ -1825,6 +1825,7 @@ Z:\Compartida\Proyectos\LM\LMSuite\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resour
 Z:\Compartida\Proyectos\LM\LMSuite\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
 Z:\Compartida\Proyectos\LM\LMSuite\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
 Z:\Compartida\Proyectos\LM\LMSuite\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Base.BaseModule.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Base.frmDesignReport.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Base.frmCatalogo.resources
@@ -1861,6 +1862,8 @@ Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmFactur
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Inventario.frmAlmacen.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmDeposito.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmLiquidacion.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Puntos.frmCatalogoPremio.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Puntos.frmEntregarPremio.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.frmPrincipal.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Properties.Resources.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.csproj.GenerateResource.Cache
@@ -1868,4 +1871,3 @@ Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.exe.licenses
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.csproj.CoreCompileInputs.cache
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.exe
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.pdb
-Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache

@@ -163,6 +163,7 @@
     <Compile Include="Base\ModulesRegistration.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class\clsBanco.cs" />
+    <Compile Include="Class\clsCatalogoPremio.cs" />
     <Compile Include="Class\clsCategoria.cs" />
     <Compile Include="Class\clsDocumento.cs" />
     <Compile Include="Class\clsFormaCompra.cs" />
@@ -544,6 +545,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>spConsumoDS.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Datasets\Catalogos\spCatPremioDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spCatPremioDS.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Base\BaseModule.resx">
       <DependentUpon>BaseModule.cs</DependentUpon>
     </EmbeddedResource>
@@ -652,6 +658,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Liquidacion\frmLiquidacion.resx">
       <DependentUpon>frmLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Puntos\frmCatalogoPremio.resx">
+      <DependentUpon>frmCatalogoPremio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Puntos\frmEntregarPremio.resx">
+      <DependentUpon>frmEntregarPremio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
@@ -983,6 +995,17 @@
     </None>
     <None Include="Datasets\Documentos\spConsumoDS.xss">
       <DependentUpon>spConsumoDS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Catalogos\spCatPremioDS.xsc">
+      <DependentUpon>spCatPremioDS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Catalogos\spCatPremioDS.xsd">
+      <Generator>MSDatasetGenerator</Generator>
+      <LastGenOutput>spCatPremioDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\Catalogos\spCatPremioDS.xss">
+      <DependentUpon>spCatPremioDS.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

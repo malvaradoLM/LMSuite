@@ -58,7 +58,7 @@ namespace RPSuite.Base
 
             //Puntos
             ModuleInfoCollection.Add("EntregarPremio", typeof(frmEntregarPremio));
-            ModuleInfoCollection.Add("CatalogoPuntos", typeof(frmCatalogoPremio));
+            ModuleInfoCollection.Add("CatalogoPremio", typeof(frmCatalogoPremio));
             ModuleInfoCollection.Add("CategoriaPuntos", typeof(frmCategoriaPuntos));
 
 
