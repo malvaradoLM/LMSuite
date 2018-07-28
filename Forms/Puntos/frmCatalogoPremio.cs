@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace RPSuite.Forms.Puntos
 {
-    public partial class frmEntregarPremio : RPSuite.Base.frmEstructuraBase
+    public partial class frmCatalogoPremio : RPSuite.Base.frmCatalogo
     {
-        public frmEntregarPremio()
+        public frmCatalogoPremio()
         {
             InitializeComponent();
         }

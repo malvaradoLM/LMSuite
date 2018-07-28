@@ -375,6 +375,24 @@
     <Compile Include="Forms\Liquidacion\frmLiquidacion.Designer.cs">
       <DependentUpon>frmLiquidacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Puntos\frmCatalogoPremio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmCatalogoPremio.Designer.cs">
+      <DependentUpon>frmCatalogoPremio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmCategoriaPuntos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmCategoriaPuntos.Designer.cs">
+      <DependentUpon>frmCategoriaPuntos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmEntregarPremio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmEntregarPremio.Designer.cs">
+      <DependentUpon>frmEntregarPremio.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>

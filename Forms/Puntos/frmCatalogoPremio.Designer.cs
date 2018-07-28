@@ -1,6 +1,6 @@
 ﻿namespace RPSuite.Forms.Puntos
 {
-    partial class frmEntregarPremio
+    partial class frmCatalogoPremio
     {
         /// <summary>
         /// Required designer variable.

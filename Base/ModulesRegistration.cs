@@ -9,6 +9,7 @@ using RPSuite.Forms.Catalogos.Configuracion;
 using RPSuite.Forms.Liquidacion;
 using RPSuite.Forms.Inventario;
 using RPSuite.Forms.Consumo;
+using RPSuite.Forms.Puntos;
 
 namespace RPSuite.Base
 {
@@ -55,6 +56,10 @@ namespace RPSuite.Base
             //Flotillas
                 ModuleInfoCollection.Add("Consumo", typeof(frmConsumo));
 
+            //Puntos
+            ModuleInfoCollection.Add("EntregarPremio", typeof(frmEntregarPremio));
+            ModuleInfoCollection.Add("CatalogoPuntos", typeof(frmCatalogoPremio));
+            ModuleInfoCollection.Add("CategoriaPuntos", typeof(frmCategoriaPuntos));
 
 
 
