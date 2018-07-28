@@ -46,54 +46,54 @@
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
-            this.lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
-            this.lookUpEdit2 = new DevExpress.XtraEditors.LookUpEdit();
-            this.lookUpEdit3 = new DevExpress.XtraEditors.LookUpEdit();
-            this.lookUpEdit4 = new DevExpress.XtraEditors.LookUpEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit10 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
-            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
-            this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.txtNumTicket = new DevExpress.XtraEditors.TextEdit();
+            this.txtPrecio = new DevExpress.XtraEditors.TextEdit();
+            this.txtCantidad = new DevExpress.XtraEditors.TextEdit();
+            this.txtImporte = new DevExpress.XtraEditors.TextEdit();
+            this.txtCuentaContable = new DevExpress.XtraEditors.TextEdit();
+            this.txtTurno = new DevExpress.XtraEditors.TextEdit();
+            this.txtBomba = new DevExpress.XtraEditors.TextEdit();
+            this.txtKilometros = new DevExpress.XtraEditors.TextEdit();
+            this.txtIEPS = new DevExpress.XtraEditors.TextEdit();
+            this.dateFecha = new DevExpress.XtraEditors.DateEdit();
+            this.dateFechaCarga = new DevExpress.XtraEditors.DateEdit();
+            this.btnTicket = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.lookUpEdit6 = new DevExpress.XtraEditors.LookUpEdit();
-            this.lookUpEdit5 = new DevExpress.XtraEditors.LookUpEdit();
+            this.bedCliente = new DevExpress.XtraEditors.ButtonEdit();
+            this.bedVehiculo = new DevExpress.XtraEditors.ButtonEdit();
+            this.txtTipo = new DevExpress.XtraEditors.TextEdit();
+            this.txtGasolinero = new DevExpress.XtraEditors.TextEdit();
             this.spConsumoDS1 = new RPSuite.Datasets.Documentos.spConsumoDS();
             this.spConsumoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bedEstacion = new DevExpress.XtraEditors.ButtonEdit();
+            this.bedProducto = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).BeginInit();
             this.tbControl.SuspendLayout();
             this.tpDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNumTicket.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPrecio.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCantidad.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtImporte.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCuentaContable.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTurno.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBomba.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtKilometros.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIEPS.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecha.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecha.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFechaCarga.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFechaCarga.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedCliente.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedVehiculo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTipo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtGasolinero.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedEstacion.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedProducto.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tbControl
@@ -102,21 +102,21 @@
             // 
             // tpDatos
             // 
+            this.tpDatos.Controls.Add(this.bedProducto);
+            this.tpDatos.Controls.Add(this.bedEstacion);
             this.tpDatos.Controls.Add(this.groupControl1);
-            this.tpDatos.Controls.Add(this.simpleButton1);
-            this.tpDatos.Controls.Add(this.dateEdit2);
-            this.tpDatos.Controls.Add(this.dateEdit1);
-            this.tpDatos.Controls.Add(this.textEdit11);
-            this.tpDatos.Controls.Add(this.textEdit10);
-            this.tpDatos.Controls.Add(this.textEdit9);
-            this.tpDatos.Controls.Add(this.textEdit8);
-            this.tpDatos.Controls.Add(this.textEdit7);
-            this.tpDatos.Controls.Add(this.textEdit6);
-            this.tpDatos.Controls.Add(this.textEdit5);
-            this.tpDatos.Controls.Add(this.textEdit4);
-            this.tpDatos.Controls.Add(this.textEdit3);
-            this.tpDatos.Controls.Add(this.lookUpEdit4);
-            this.tpDatos.Controls.Add(this.lookUpEdit3);
+            this.tpDatos.Controls.Add(this.btnTicket);
+            this.tpDatos.Controls.Add(this.dateFechaCarga);
+            this.tpDatos.Controls.Add(this.dateFecha);
+            this.tpDatos.Controls.Add(this.txtIEPS);
+            this.tpDatos.Controls.Add(this.txtKilometros);
+            this.tpDatos.Controls.Add(this.txtBomba);
+            this.tpDatos.Controls.Add(this.txtTurno);
+            this.tpDatos.Controls.Add(this.txtCuentaContable);
+            this.tpDatos.Controls.Add(this.txtImporte);
+            this.tpDatos.Controls.Add(this.txtCantidad);
+            this.tpDatos.Controls.Add(this.txtPrecio);
+            this.tpDatos.Controls.Add(this.txtNumTicket);
             this.tpDatos.Controls.Add(this.labelControl18);
             this.tpDatos.Controls.Add(this.labelControl17);
             this.tpDatos.Controls.Add(this.labelControl16);
@@ -198,7 +198,7 @@
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(94, 24);
+            this.labelControl10.Location = new System.Drawing.Point(113, 24);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(39, 13);
             this.labelControl10.TabIndex = 9;
@@ -206,7 +206,7 @@
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(178, 24);
+            this.labelControl11.Location = new System.Drawing.Point(219, 24);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(50, 13);
             this.labelControl11.TabIndex = 10;
@@ -214,7 +214,7 @@
             // 
             // labelControl12
             // 
-            this.labelControl12.Location = new System.Drawing.Point(262, 24);
+            this.labelControl12.Location = new System.Drawing.Point(289, 24);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(20, 13);
             this.labelControl12.TabIndex = 11;
@@ -268,170 +268,150 @@
             this.labelControl18.TabIndex = 17;
             this.labelControl18.Text = "IEPS";
             // 
-            // lookUpEdit1
+            // txtNumTicket
             // 
-            this.lookUpEdit1.Location = new System.Drawing.Point(10, 43);
-            this.lookUpEdit1.Name = "lookUpEdit1";
-            this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txtNumTicket.Location = new System.Drawing.Point(21, 116);
+            this.txtNumTicket.Name = "txtNumTicket";
+            this.txtNumTicket.Size = new System.Drawing.Size(135, 20);
+            this.txtNumTicket.TabIndex = 24;
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.Location = new System.Drawing.Point(21, 296);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(78, 20);
+            this.txtPrecio.TabIndex = 25;
+            // 
+            // txtCantidad
+            // 
+            this.txtCantidad.Location = new System.Drawing.Point(21, 341);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(78, 20);
+            this.txtCantidad.TabIndex = 26;
+            // 
+            // txtImporte
+            // 
+            this.txtImporte.Location = new System.Drawing.Point(21, 386);
+            this.txtImporte.Name = "txtImporte";
+            this.txtImporte.Size = new System.Drawing.Size(78, 20);
+            this.txtImporte.TabIndex = 27;
+            // 
+            // txtCuentaContable
+            // 
+            this.txtCuentaContable.Location = new System.Drawing.Point(246, 116);
+            this.txtCuentaContable.Name = "txtCuentaContable";
+            this.txtCuentaContable.Size = new System.Drawing.Size(125, 20);
+            this.txtCuentaContable.TabIndex = 28;
+            // 
+            // txtTurno
+            // 
+            this.txtTurno.Location = new System.Drawing.Point(246, 206);
+            this.txtTurno.Name = "txtTurno";
+            this.txtTurno.Size = new System.Drawing.Size(125, 20);
+            this.txtTurno.TabIndex = 29;
+            // 
+            // txtBomba
+            // 
+            this.txtBomba.Location = new System.Drawing.Point(246, 251);
+            this.txtBomba.Name = "txtBomba";
+            this.txtBomba.Size = new System.Drawing.Size(125, 20);
+            this.txtBomba.TabIndex = 30;
+            // 
+            // txtKilometros
+            // 
+            this.txtKilometros.Location = new System.Drawing.Point(246, 296);
+            this.txtKilometros.Name = "txtKilometros";
+            this.txtKilometros.Size = new System.Drawing.Size(79, 20);
+            this.txtKilometros.TabIndex = 31;
+            // 
+            // txtIEPS
+            // 
+            this.txtIEPS.Location = new System.Drawing.Point(246, 341);
+            this.txtIEPS.Name = "txtIEPS";
+            this.txtIEPS.Size = new System.Drawing.Size(79, 20);
+            this.txtIEPS.TabIndex = 32;
+            // 
+            // dateFecha
+            // 
+            this.dateFecha.EditValue = null;
+            this.dateFecha.Location = new System.Drawing.Point(21, 161);
+            this.dateFecha.Name = "dateFecha";
+            this.dateFecha.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit1.Size = new System.Drawing.Size(78, 20);
-            this.lookUpEdit1.TabIndex = 18;
-            // 
-            // lookUpEdit2
-            // 
-            this.lookUpEdit2.Location = new System.Drawing.Point(94, 43);
-            this.lookUpEdit2.Name = "lookUpEdit2";
-            this.lookUpEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.dateFecha.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit2.Size = new System.Drawing.Size(78, 20);
-            this.lookUpEdit2.TabIndex = 19;
+            this.dateFecha.Size = new System.Drawing.Size(135, 20);
+            this.dateFecha.TabIndex = 33;
             // 
-            // lookUpEdit3
+            // dateFechaCarga
             // 
-            this.lookUpEdit3.Location = new System.Drawing.Point(21, 251);
-            this.lookUpEdit3.Name = "lookUpEdit3";
-            this.lookUpEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.dateFechaCarga.EditValue = null;
+            this.dateFechaCarga.Location = new System.Drawing.Point(21, 206);
+            this.dateFechaCarga.Name = "dateFechaCarga";
+            this.dateFechaCarga.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit3.Size = new System.Drawing.Size(135, 20);
-            this.lookUpEdit3.TabIndex = 20;
-            // 
-            // lookUpEdit4
-            // 
-            this.lookUpEdit4.Location = new System.Drawing.Point(246, 161);
-            this.lookUpEdit4.Name = "lookUpEdit4";
-            this.lookUpEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.dateFechaCarga.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit4.Size = new System.Drawing.Size(125, 20);
-            this.lookUpEdit4.TabIndex = 21;
+            this.dateFechaCarga.Size = new System.Drawing.Size(135, 20);
+            this.dateFechaCarga.TabIndex = 34;
             // 
-            // textEdit3
+            // btnTicket
             // 
-            this.textEdit3.Location = new System.Drawing.Point(21, 116);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(135, 20);
-            this.textEdit3.TabIndex = 24;
-            // 
-            // textEdit4
-            // 
-            this.textEdit4.Location = new System.Drawing.Point(21, 296);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(78, 20);
-            this.textEdit4.TabIndex = 25;
-            // 
-            // textEdit5
-            // 
-            this.textEdit5.Location = new System.Drawing.Point(21, 341);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(78, 20);
-            this.textEdit5.TabIndex = 26;
-            // 
-            // textEdit6
-            // 
-            this.textEdit6.Location = new System.Drawing.Point(21, 386);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(78, 20);
-            this.textEdit6.TabIndex = 27;
-            // 
-            // textEdit7
-            // 
-            this.textEdit7.Location = new System.Drawing.Point(246, 116);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(125, 20);
-            this.textEdit7.TabIndex = 28;
-            // 
-            // textEdit8
-            // 
-            this.textEdit8.Location = new System.Drawing.Point(246, 206);
-            this.textEdit8.Name = "textEdit8";
-            this.textEdit8.Size = new System.Drawing.Size(125, 20);
-            this.textEdit8.TabIndex = 29;
-            // 
-            // textEdit9
-            // 
-            this.textEdit9.Location = new System.Drawing.Point(246, 251);
-            this.textEdit9.Name = "textEdit9";
-            this.textEdit9.Size = new System.Drawing.Size(125, 20);
-            this.textEdit9.TabIndex = 30;
-            // 
-            // textEdit10
-            // 
-            this.textEdit10.Location = new System.Drawing.Point(246, 296);
-            this.textEdit10.Name = "textEdit10";
-            this.textEdit10.Size = new System.Drawing.Size(79, 20);
-            this.textEdit10.TabIndex = 31;
-            // 
-            // textEdit11
-            // 
-            this.textEdit11.Location = new System.Drawing.Point(246, 341);
-            this.textEdit11.Name = "textEdit11";
-            this.textEdit11.Size = new System.Drawing.Size(79, 20);
-            this.textEdit11.TabIndex = 32;
-            // 
-            // dateEdit1
-            // 
-            this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(21, 161);
-            this.dateEdit1.Name = "dateEdit1";
-            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit1.Size = new System.Drawing.Size(135, 20);
-            this.dateEdit1.TabIndex = 33;
-            // 
-            // dateEdit2
-            // 
-            this.dateEdit2.EditValue = null;
-            this.dateEdit2.Location = new System.Drawing.Point(21, 206);
-            this.dateEdit2.Name = "dateEdit2";
-            this.dateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit2.Size = new System.Drawing.Size(135, 20);
-            this.dateEdit2.TabIndex = 34;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(162, 113);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(45, 23);
-            this.simpleButton1.TabIndex = 35;
-            this.simpleButton1.Text = "Ticket";
+            this.btnTicket.Location = new System.Drawing.Point(162, 113);
+            this.btnTicket.Name = "btnTicket";
+            this.btnTicket.Size = new System.Drawing.Size(45, 23);
+            this.btnTicket.TabIndex = 35;
+            this.btnTicket.Text = "Ticket";
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.lookUpEdit6);
-            this.groupControl1.Controls.Add(this.lookUpEdit5);
+            this.groupControl1.Controls.Add(this.bedCliente);
+            this.groupControl1.Controls.Add(this.bedVehiculo);
+            this.groupControl1.Controls.Add(this.txtTipo);
+            this.groupControl1.Controls.Add(this.txtGasolinero);
             this.groupControl1.Controls.Add(this.labelControl9);
             this.groupControl1.Controls.Add(this.labelControl10);
             this.groupControl1.Controls.Add(this.labelControl11);
             this.groupControl1.Controls.Add(this.labelControl12);
-            this.groupControl1.Controls.Add(this.lookUpEdit1);
-            this.groupControl1.Controls.Add(this.lookUpEdit2);
             this.groupControl1.Location = new System.Drawing.Point(11, 11);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(360, 70);
             this.groupControl1.TabIndex = 36;
             this.groupControl1.Text = "Tarjeta";
             // 
-            // lookUpEdit6
+            // bedCliente
             // 
-            this.lookUpEdit6.Location = new System.Drawing.Point(262, 43);
-            this.lookUpEdit6.Name = "lookUpEdit6";
-            this.lookUpEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit6.Size = new System.Drawing.Size(78, 20);
-            this.lookUpEdit6.TabIndex = 21;
+            this.bedCliente.Location = new System.Drawing.Point(10, 43);
+            this.bedCliente.Name = "bedCliente";
+            this.bedCliente.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedCliente.Size = new System.Drawing.Size(97, 20);
+            this.bedCliente.TabIndex = 26;
+            this.bedCliente.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.bedCliente_ButtonClick);
+            this.bedCliente.EditValueChanged += new System.EventHandler(this.bedCliente_EditValueChanged);
             // 
-            // lookUpEdit5
+            // bedVehiculo
             // 
-            this.lookUpEdit5.Location = new System.Drawing.Point(178, 43);
-            this.lookUpEdit5.Name = "lookUpEdit5";
-            this.lookUpEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit5.Size = new System.Drawing.Size(78, 20);
-            this.lookUpEdit5.TabIndex = 20;
+            this.bedVehiculo.Location = new System.Drawing.Point(113, 43);
+            this.bedVehiculo.Name = "bedVehiculo";
+            this.bedVehiculo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedVehiculo.Size = new System.Drawing.Size(100, 20);
+            this.bedVehiculo.TabIndex = 24;
+            // 
+            // txtTipo
+            // 
+            this.txtTipo.Location = new System.Drawing.Point(289, 43);
+            this.txtTipo.Name = "txtTipo";
+            this.txtTipo.Size = new System.Drawing.Size(66, 20);
+            this.txtTipo.TabIndex = 21;
+            // 
+            // txtGasolinero
+            // 
+            this.txtGasolinero.Location = new System.Drawing.Point(219, 43);
+            this.txtGasolinero.Name = "txtGasolinero";
+            this.txtGasolinero.Size = new System.Drawing.Size(65, 20);
+            this.txtGasolinero.TabIndex = 20;
             // 
             // spConsumoDS1
             // 
@@ -442,6 +422,24 @@
             // 
             this.spConsumoBindingSource.DataMember = "spConsumo";
             this.spConsumoBindingSource.DataSource = this.spConsumoDS1;
+            // 
+            // bedEstacion
+            // 
+            this.bedEstacion.Location = new System.Drawing.Point(246, 161);
+            this.bedEstacion.Name = "bedEstacion";
+            this.bedEstacion.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedEstacion.Size = new System.Drawing.Size(125, 20);
+            this.bedEstacion.TabIndex = 25;
+            // 
+            // bedProducto
+            // 
+            this.bedProducto.Location = new System.Drawing.Point(21, 251);
+            this.bedProducto.Name = "bedProducto";
+            this.bedProducto.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.bedProducto.Size = new System.Drawing.Size(135, 20);
+            this.bedProducto.TabIndex = 27;
             // 
             // frmConsumo
             // 
@@ -454,52 +452,48 @@
             this.tpDatos.ResumeLayout(false);
             this.tpDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNumTicket.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPrecio.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCantidad.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtImporte.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCuentaContable.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTurno.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBomba.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtKilometros.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIEPS.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecha.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecha.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFechaCarga.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFechaCarga.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedCliente.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedVehiculo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTipo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtGasolinero.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedEstacion.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bedProducto.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.DateEdit dateEdit2;
-        private DevExpress.XtraEditors.DateEdit dateEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit11;
-        private DevExpress.XtraEditors.TextEdit textEdit10;
-        private DevExpress.XtraEditors.TextEdit textEdit9;
-        private DevExpress.XtraEditors.TextEdit textEdit8;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit4;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit3;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit2;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit1;
+        private DevExpress.XtraEditors.SimpleButton btnTicket;
+        private DevExpress.XtraEditors.DateEdit dateFechaCarga;
+        private DevExpress.XtraEditors.DateEdit dateFecha;
+        private DevExpress.XtraEditors.TextEdit txtIEPS;
+        private DevExpress.XtraEditors.TextEdit txtKilometros;
+        private DevExpress.XtraEditors.TextEdit txtBomba;
+        private DevExpress.XtraEditors.TextEdit txtTurno;
+        private DevExpress.XtraEditors.TextEdit txtCuentaContable;
+        private DevExpress.XtraEditors.TextEdit txtImporte;
+        private DevExpress.XtraEditors.TextEdit txtCantidad;
+        private DevExpress.XtraEditors.TextEdit txtPrecio;
+        private DevExpress.XtraEditors.TextEdit txtNumTicket;
         private DevExpress.XtraEditors.LabelControl labelControl18;
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.LabelControl labelControl16;
@@ -517,9 +511,13 @@
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit6;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit5;
         private Datasets.Documentos.spConsumoDS spConsumoDS1;
         private System.Windows.Forms.BindingSource spConsumoBindingSource;
+        private DevExpress.XtraEditors.TextEdit txtTipo;
+        private DevExpress.XtraEditors.TextEdit txtGasolinero;
+        private DevExpress.XtraEditors.ButtonEdit bedProducto;
+        private DevExpress.XtraEditors.ButtonEdit bedEstacion;
+        private DevExpress.XtraEditors.ButtonEdit bedCliente;
+        private DevExpress.XtraEditors.ButtonEdit bedVehiculo;
     }
 }

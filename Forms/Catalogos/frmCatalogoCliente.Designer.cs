@@ -306,6 +306,7 @@
             // tpDatos
             // 
             this.tpDatos.Controls.Add(this.tbAgregarClientes);
+            this.tpDatos.Size = new System.Drawing.Size(806, 394);
             // 
             // dgcCatalogo
             // 
@@ -559,7 +560,7 @@
             this.tbAgregarClientes.Location = new System.Drawing.Point(0, 0);
             this.tbAgregarClientes.Name = "tbAgregarClientes";
             this.tbAgregarClientes.SelectedTabPage = this.tbDatosGenerales;
-            this.tbAgregarClientes.Size = new System.Drawing.Size(678, 282);
+            this.tbAgregarClientes.Size = new System.Drawing.Size(806, 394);
             this.tbAgregarClientes.TabIndex = 1;
             this.tbAgregarClientes.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.tbDatosGenerales,
@@ -587,7 +588,7 @@
             this.tbDatosGenerales.Controls.Add(this.labelControl2);
             this.tbDatosGenerales.Controls.Add(this.labelControl1);
             this.tbDatosGenerales.Name = "tbDatosGenerales";
-            this.tbDatosGenerales.Size = new System.Drawing.Size(676, 257);
+            this.tbDatosGenerales.Size = new System.Drawing.Size(804, 369);
             this.tbDatosGenerales.Text = "Agregar Cliente";
             // 
             // groupControl3

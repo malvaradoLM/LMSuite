@@ -8,7 +8,11 @@ using RPSuite.Forms;
 using RPSuite.Forms.Catalogos.Configuracion;
 using RPSuite.Forms.Liquidacion;
 using RPSuite.Forms.Inventario;
+<<<<<<< HEAD
 using RPSuite.Forms.Puntos;
+=======
+using RPSuite.Forms.Consumo;
+>>>>>>> 6b1f76185325f75490a31dbcbda58fd49f6d641c
 
 namespace RPSuite.Base
 {
@@ -52,6 +56,9 @@ namespace RPSuite.Base
                 ModuleInfoCollection.Add("liquidacion", typeof(frmLiquidacion));
                 ModuleInfoCollection.Add("Depositos", typeof(frmDeposito));
                 ModuleInfoCollection.Add("CierreMensual", typeof(frmCierreMensual));
+
+            //Flotillas
+                ModuleInfoCollection.Add("Consumo", typeof(frmConsumo));
 
 
             //    Puntos

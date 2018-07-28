@@ -341,6 +341,7 @@ namespace RPSuite
             bvcMenuPrincipal.Close();
         }
 
+<<<<<<< HEAD
         private void timCierreMensual_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             ModuleInfoCollection.ShowModuleByName("CierreMensual", this);
@@ -356,6 +357,11 @@ namespace RPSuite
         private void tileItem38_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             ModuleInfoCollection.ShowModuleByName("CatalogoPremio", this);
+=======
+        private void tileItem2_ItemClick_1(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("Consumo", this);
+>>>>>>> 6b1f76185325f75490a31dbcbda58fd49f6d641c
             bvcMenuPrincipal.Close();
         }
     }

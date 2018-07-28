@@ -190,6 +190,12 @@
     <Compile Include="Datasets\Catalogos\spCatEstacionDS.cs">
       <DependentUpon>spCatEstacionDS.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Buscar\frmBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Buscar\frmBuscar.Designer.cs">
+      <DependentUpon>frmBuscar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Catalogos\Configuracion\frmCatalogoEstacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -322,10 +328,10 @@
     <Compile Include="Forms\Catalogos\frmCatalogoTerminalBiometrica.Designer.cs">
       <DependentUpon>frmCatalogoTerminalBiometrica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Consumo\frmConsumo.cs">
+    <Compile Include="Forms\Flotillas\frmConsumo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Consumo\frmConsumo.Designer.cs">
+    <Compile Include="Forms\Flotillas\frmConsumo.Designer.cs">
       <DependentUpon>frmConsumo.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Facturacion\frmBuscarCliente.cs">
@@ -571,6 +577,9 @@
     <EmbeddedResource Include="Base\frmPadre.resx">
       <DependentUpon>frmPadre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Buscar\frmBuscar.resx">
+      <DependentUpon>frmBuscar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Catalogos\Configuracion\frmCatalogoEstacion.resx">
       <DependentUpon>frmCatalogoEstacion.cs</DependentUpon>
     </EmbeddedResource>
@@ -637,7 +646,7 @@
     <EmbeddedResource Include="Forms\Catalogos\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Consumo\frmConsumo.resx">
+    <EmbeddedResource Include="Forms\Flotillas\frmConsumo.resx">
       <DependentUpon>frmConsumo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Facturacion\frmBuscarCliente.resx">
@@ -1080,8 +1089,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\Buscar\" />
-    <Folder Include="Forms\Flotillas\" />
     <Folder Include="Forms\Volumetrico\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
