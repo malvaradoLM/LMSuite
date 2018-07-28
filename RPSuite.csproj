@@ -11,7 +11,6 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,11 +23,12 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -163,7 +163,6 @@
     <Compile Include="Base\ModulesRegistration.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class\clsBanco.cs" />
-    <Compile Include="Class\clsCatalogoPremio.cs" />
     <Compile Include="Class\clsCategoria.cs" />
     <Compile Include="Class\clsDocumento.cs" />
     <Compile Include="Class\clsFormaCompra.cs" />
@@ -358,29 +357,11 @@
     <Compile Include="Forms\Facturacion\frmFacturaContado.Designer.cs">
       <DependentUpon>frmFacturaContado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Liquidacion\frmCierreMensual.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Liquidacion\frmCierreMensual.Designer.cs">
-      <DependentUpon>frmCierreMensual.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Inventario\frmAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Inventario\frmAlmacen.Designer.cs">
       <DependentUpon>frmAlmacen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Liquidacion\frmConciliacion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Liquidacion\frmConciliacion.Designer.cs">
-      <DependentUpon>frmConciliacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Liquidacion\frmConsumoFlotillas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Liquidacion\frmConsumoFlotillas.Designer.cs">
-      <DependentUpon>frmConsumoFlotillas.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Liquidacion\frmDeposito.cs">
       <SubType>Form</SubType>
@@ -393,18 +374,6 @@
     </Compile>
     <Compile Include="Forms\Liquidacion\frmLiquidacion.Designer.cs">
       <DependentUpon>frmLiquidacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Puntos\frmCatalogoPremios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Puntos\frmCatalogoPremios.Designer.cs">
-      <DependentUpon>frmCatalogoPremios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Puntos\frmEntregarPremio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Puntos\frmEntregarPremio.Designer.cs">
-      <DependentUpon>frmEntregarPremio.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
@@ -557,11 +526,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>spConsumoDS.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Datasets\spCatPremioDS.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>spCatPremioDS.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Base\BaseModule.resx">
       <DependentUpon>BaseModule.cs</DependentUpon>
     </EmbeddedResource>
@@ -662,29 +626,14 @@
     <EmbeddedResource Include="Forms\Facturacion\frmFacturaContado.resx">
       <DependentUpon>frmFacturaContado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Liquidacion\frmCierreMensual.resx">
-      <DependentUpon>frmCierreMensual.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Inventario\frmAlmacen.resx">
       <DependentUpon>frmAlmacen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Liquidacion\frmConciliacion.resx">
-      <DependentUpon>frmConciliacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Liquidacion\frmConsumoFlotillas.resx">
-      <DependentUpon>frmConsumoFlotillas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Liquidacion\frmDeposito.resx">
       <DependentUpon>frmDeposito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Liquidacion\frmLiquidacion.resx">
       <DependentUpon>frmLiquidacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Puntos\frmCatalogoPremios.resx">
-      <DependentUpon>frmCatalogoPremios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Puntos\frmEntregarPremio.resx">
-      <DependentUpon>frmEntregarPremio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
@@ -1017,24 +966,12 @@
     <None Include="Datasets\Documentos\spConsumoDS.xss">
       <DependentUpon>spConsumoDS.xsd</DependentUpon>
     </None>
-    <None Include="Datasets\spCatPremioDS.xsc">
-      <DependentUpon>spCatPremioDS.xsd</DependentUpon>
-    </None>
-    <None Include="Datasets\spCatPremioDS.xsd">
-      <Generator>MSDatasetGenerator</Generator>
-      <LastGenOutput>spCatPremioDS.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Datasets\spCatPremioDS.xss">
-      <DependentUpon>spCatPremioDS.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CistemAdministracion_Icon.ico" />
-    <None Include="Resources\calculator-business-money-coins.png" />
     <None Include="Resources\properties.png" />
     <None Include="Resources\work-user.png" />
     <None Include="Resources\people-employee.png" />

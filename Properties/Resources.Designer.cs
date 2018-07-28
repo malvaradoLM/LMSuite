@@ -93,16 +93,6 @@ namespace RPSuite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap calculator_business_money_coins {
-            get {
-                object obj = ResourceManager.GetObject("calculator-business-money-coins", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap calendar_selection_day_star {
             get {
                 object obj = ResourceManager.GetObject("calendar_selection_day-star", resourceCulture);
