@@ -10,6 +10,7 @@ using RPSuite.Forms.Liquidacion;
 using RPSuite.Forms.Inventario;
 using RPSuite.Forms.Consumo;
 using RPSuite.Forms.Puntos;
+using RPSuite.Forms.Buscar;
 
 namespace RPSuite.Base
 {
@@ -60,6 +61,8 @@ namespace RPSuite.Base
             ModuleInfoCollection.Add("EntregarPremio", typeof(frmEntregarPremio));
             ModuleInfoCollection.Add("CatalogoPremio", typeof(frmCatalogoPremio));
             ModuleInfoCollection.Add("CategoriaPuntos", typeof(frmCategoriaPuntos));
+
+            ModuleInfoCollection.Add("CategoriaPuntos", typeof(frmBuscar));
 
 
 

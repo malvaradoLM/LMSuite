@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using RPSuite.Class;
 
 namespace RPSuite.Forms.Buscar
 {
@@ -26,6 +27,7 @@ namespace RPSuite.Forms.Buscar
 
             //BindingSource
             DataSource = BindingSource;
+            DataSource.DataSource = BusquedaDS;
             DataSource.DataMember = DataMember;
             
 
@@ -65,6 +67,20 @@ namespace RPSuite.Forms.Buscar
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             Buscar(txtDatosBusqueda.Text);
+        }
+
+        private void frmBuscar_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                Misc._ID = Int32.Parse(gvBuscar.GetRowCellValue(gvBuscar.FocusedRowHandle, gvBuscar.Columns[0]).ToString());
+            }
+            catch(Exception ex) { }
+        }
+
+        private void gvBuscar_DoubleClick(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

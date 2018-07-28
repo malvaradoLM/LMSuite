@@ -398,6 +398,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.bedVehiculo.Size = new System.Drawing.Size(100, 20);
             this.bedVehiculo.TabIndex = 24;
+            this.bedVehiculo.Click += new System.EventHandler(this.bedVehiculo_Click);
             // 
             // txtTipo
             // 
@@ -431,6 +432,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.bedEstacion.Size = new System.Drawing.Size(125, 20);
             this.bedEstacion.TabIndex = 25;
+            this.bedEstacion.Click += new System.EventHandler(this.bedEstacion_Click);
             // 
             // bedProducto
             // 
@@ -440,6 +442,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton()});
             this.bedProducto.Size = new System.Drawing.Size(135, 20);
             this.bedProducto.TabIndex = 27;
+            this.bedProducto.Click += new System.EventHandler(this.bedProducto_Click);
             // 
             // frmConsumo
             // 

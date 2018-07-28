@@ -45,10 +45,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gvBuscar)).BeginInit();
             this.SuspendLayout();
             // 
-            // tbControl
-            // 
-            this.tbControl.SelectedTabPage = this.tpDatos;
-            // 
             // tpDatos
             // 
             this.tpDatos.Controls.Add(this.dgcBusqueda);
@@ -115,12 +111,14 @@
             this.gvBuscar.OptionsFind.ShowFindButton = false;
             this.gvBuscar.OptionsSelection.MultiSelect = true;
             this.gvBuscar.OptionsView.ColumnAutoWidth = false;
+            this.gvBuscar.DoubleClick += new System.EventHandler(this.gvBuscar_DoubleClick);
             // 
             // frmBuscar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(712, 392);
             this.Name = "frmBuscar";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBuscar_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).EndInit();
             this.tbControl.ResumeLayout(false);
             this.tpDatos.ResumeLayout(false);
