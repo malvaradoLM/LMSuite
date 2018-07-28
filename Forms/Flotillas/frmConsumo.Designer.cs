@@ -63,8 +63,6 @@
             this.bedVehiculo = new DevExpress.XtraEditors.ButtonEdit();
             this.txtTipo = new DevExpress.XtraEditors.TextEdit();
             this.txtGasolinero = new DevExpress.XtraEditors.TextEdit();
-            this.spConsumoDS1 = new RPSuite.Datasets.Documentos.spConsumoDS();
-            this.spConsumoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bedEstacion = new DevExpress.XtraEditors.ButtonEdit();
             this.bedProducto = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).BeginInit();
@@ -90,8 +88,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bedVehiculo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTipo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGasolinero.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bedEstacion.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bedProducto.Properties)).BeginInit();
             this.SuspendLayout();
@@ -414,16 +410,6 @@
             this.txtGasolinero.Size = new System.Drawing.Size(65, 20);
             this.txtGasolinero.TabIndex = 20;
             // 
-            // spConsumoDS1
-            // 
-            this.spConsumoDS1.DataSetName = "spConsumoDS";
-            this.spConsumoDS1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // spConsumoBindingSource
-            // 
-            this.spConsumoBindingSource.DataMember = "spConsumo";
-            this.spConsumoBindingSource.DataSource = this.spConsumoDS1;
-            // 
             // bedEstacion
             // 
             this.bedEstacion.Location = new System.Drawing.Point(246, 161);
@@ -475,8 +461,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bedVehiculo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTipo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtGasolinero.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spConsumoDS1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spConsumoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bedEstacion.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bedProducto.Properties)).EndInit();
             this.ResumeLayout(false);
@@ -514,8 +498,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private Datasets.Documentos.spConsumoDS spConsumoDS1;
-        private System.Windows.Forms.BindingSource spConsumoBindingSource;
         private DevExpress.XtraEditors.TextEdit txtTipo;
         private DevExpress.XtraEditors.TextEdit txtGasolinero;
         private DevExpress.XtraEditors.ButtonEdit bedProducto;
