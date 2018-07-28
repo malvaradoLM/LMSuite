@@ -345,6 +345,7 @@ namespace RPSuite
         {
             ModuleInfoCollection.ShowModuleByName("Consumo", this);
             bvcMenuPrincipal.Close();
+
         }
     }
 }
