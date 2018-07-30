@@ -407,6 +407,60 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="spConsumo" msprop:Schema="spConsumo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SecuenciaVenta" type="xs:int" />
+              <xs:element name="Serie" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstacionID" type="xs:int" />
+              <xs:element name="FechaMovimiento" type="xs:dateTime" />
+              <xs:element name="FechaCarga" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ejercicio" type="xs:int" />
+              <xs:element name="Periodo" type="xs:int" />
+              <xs:element name="Dia" type="xs:int" />
+              <xs:element name="Turno" type="xs:int" />
+              <xs:element name="Kilometraje" type="xs:int" minOccurs="0" />
+              <xs:element name="Tarjeta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PosicionCarga" type="xs:int" />
+              <xs:element name="Cantidad" type="xs:double" />
+              <xs:element name="Precio" type="xs:double" />
+              <xs:element name="Importe" type="xs:double" />
+              <xs:element name="ImpuestoImporte" type="xs:double" />
+              <xs:element name="ImpuestoPorcentaje" type="xs:double" />
+              <xs:element name="ManualAutomatico">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Facturado" type="xs:boolean" />
+              <xs:element name="EnIngresos" type="xs:boolean" />
+              <xs:element name="Auditado" type="xs:boolean" />
+              <xs:element name="FacturaID" type="xs:int" />
+              <xs:element name="ProductoID" type="xs:int" />
+              <xs:element name="GasolineroID" type="xs:int" />
+              <xs:element name="ClienteID" type="xs:int" />
+              <xs:element name="VehiculoID" type="xs:int" />
+              <xs:element name="IEPS" type="xs:double" minOccurs="0" />
+              <xs:element name="Rendimiento" type="xs:double" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="FechaCaptura" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="PK_spCatEstacion" msdata:PrimaryKey="true">
