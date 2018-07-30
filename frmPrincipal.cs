@@ -389,5 +389,10 @@ namespace RPSuite
             ModuleInfoCollection.ShowModuleByName("Conciliacion", this);
             bvcMenuPrincipal.Close();
         }
+
+        private void tileItem8_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+
+        }
     }
 }
