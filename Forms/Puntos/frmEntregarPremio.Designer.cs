@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEntregarPremio));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.txtClienteID = new DevExpress.XtraEditors.ButtonEdit();
             this.mmeObservaciones = new DevExpress.XtraEditors.MemoEdit();
             this.txtCantidad = new DevExpress.XtraEditors.TextEdit();
             this.luePremio = new DevExpress.XtraEditors.LookUpEdit();
@@ -42,17 +43,16 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.spCatPremioDS = new RPSuite.Datasets.Catalogos.spCatPremioDS();
-            this.txtClienteID = new DevExpress.XtraEditors.ButtonEdit();
             ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtClienteID.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mmeObservaciones.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCantidad.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luePremio.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtSaldo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNombre.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spCatPremioDS)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtClienteID.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -74,6 +74,15 @@
             this.groupControl1.Size = new System.Drawing.Size(496, 355);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Datos";
+            // 
+            // txtClienteID
+            // 
+            this.txtClienteID.Location = new System.Drawing.Point(22, 53);
+            this.txtClienteID.Name = "txtClienteID";
+            this.txtClienteID.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.txtClienteID.Size = new System.Drawing.Size(100, 20);
+            this.txtClienteID.TabIndex = 12;
             // 
             // mmeObservaciones
             // 
@@ -167,15 +176,6 @@
             this.spCatPremioDS.DataSetName = "spCatPremioDS";
             this.spCatPremioDS.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // txtClienteID
-            // 
-            this.txtClienteID.Location = new System.Drawing.Point(22, 53);
-            this.txtClienteID.Name = "txtClienteID";
-            this.txtClienteID.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.txtClienteID.Size = new System.Drawing.Size(100, 20);
-            this.txtClienteID.TabIndex = 12;
-            // 
             // frmEntregarPremio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -188,13 +188,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtClienteID.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mmeObservaciones.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCantidad.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.luePremio.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtSaldo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNombre.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spCatPremioDS)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtClienteID.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

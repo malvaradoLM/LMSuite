@@ -53,9 +53,12 @@ namespace RPSuite.Base
             //Liquidacion
                 ModuleInfoCollection.Add("liquidacion", typeof(frmLiquidacion));
                 ModuleInfoCollection.Add("Depositos", typeof(frmDeposito));
+            ModuleInfoCollection.Add("CierreMensual", typeof(frmCierreMensual));
+            ModuleInfoCollection.Add("Conciliacion", typeof(frmConciliacion));
+            ModuleInfoCollection.Add("ConsumoFlotillas", typeof(frmConsumoFlotillas));
 
             //Flotillas
-                ModuleInfoCollection.Add("Consumo", typeof(frmConsumo));
+            ModuleInfoCollection.Add("Consumo", typeof(frmConsumo));
 
             //Puntos
             ModuleInfoCollection.Add("EntregarPremio", typeof(frmEntregarPremio));

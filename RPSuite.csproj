@@ -364,6 +364,24 @@
     <Compile Include="Forms\Inventario\frmAlmacen.Designer.cs">
       <DependentUpon>frmAlmacen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Liquidacion\frmCierreMensual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Liquidacion\frmCierreMensual.Designer.cs">
+      <DependentUpon>frmCierreMensual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Liquidacion\frmConciliacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Liquidacion\frmConciliacion.Designer.cs">
+      <DependentUpon>frmConciliacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Liquidacion\frmConsumoFlotillas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Liquidacion\frmConsumoFlotillas.Designer.cs">
+      <DependentUpon>frmConsumoFlotillas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Liquidacion\frmDeposito.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -652,6 +670,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Inventario\frmAlmacen.resx">
       <DependentUpon>frmAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Liquidacion\frmCierreMensual.resx">
+      <DependentUpon>frmCierreMensual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Liquidacion\frmConciliacion.resx">
+      <DependentUpon>frmConciliacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Liquidacion\frmConsumoFlotillas.resx">
+      <DependentUpon>frmConsumoFlotillas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Liquidacion\frmDeposito.resx">
       <DependentUpon>frmDeposito.cs</DependentUpon>

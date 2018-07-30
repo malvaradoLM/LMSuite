@@ -365,5 +365,29 @@ namespace RPSuite
             ModuleInfoCollection.ShowModuleByName("CategoriaPuntos", this);
             bvcMenuPrincipal.Close();
         }
+
+        private void tileItem43_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("ConsumoFlotillas", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timCierreMensual_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("CierreMensual", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timAcumuladoLiquidacion_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("AcumuladoLiquidacion", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timConciliacion_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("Conciliacion", this);
+            bvcMenuPrincipal.Close();
+        }
     }
 }

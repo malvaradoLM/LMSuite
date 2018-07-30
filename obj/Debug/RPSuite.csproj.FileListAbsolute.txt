@@ -1873,3 +1873,6 @@ C:\LM2\LMSuite\obj\Debug\RPSuite.csproj.CoreCompileInputs.cache
 C:\LM2\LMSuite\obj\Debug\RPSuite.exe
 C:\LM2\LMSuite\obj\Debug\RPSuite.pdb
 C:\LM2\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.frmCierreMensual.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmConciliacion.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmConsumoFlotillas.resources
