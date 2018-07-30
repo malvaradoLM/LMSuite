@@ -1876,3 +1876,7 @@ C:\LM2\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.frmCierreMensual.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmConciliacion.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Liquidacion.frmConsumoFlotillas.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Puntos.frmPuntosManual.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Flotillas.Cupones.frmCancelarCupon.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Flotillas.Cupones.frmCupon.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Flotillas.Cupones.frmEstadoCupon.resources

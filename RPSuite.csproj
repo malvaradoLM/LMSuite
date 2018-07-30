@@ -328,6 +328,24 @@
     <Compile Include="Forms\Catalogos\frmCatalogoTerminalBiometrica.Designer.cs">
       <DependentUpon>frmCatalogoTerminalBiometrica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Flotillas\Cupones\frmCancelarCupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Cupones\frmCancelarCupon.Designer.cs">
+      <DependentUpon>frmCancelarCupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Cupones\frmCupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Cupones\frmCupon.Designer.cs">
+      <DependentUpon>frmCupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Cupones\frmEstadoCupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Cupones\frmEstadoCupon.Designer.cs">
+      <DependentUpon>frmEstadoCupon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Flotillas\frmConsumo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -411,6 +429,12 @@
     </Compile>
     <Compile Include="Forms\Puntos\frmEntregarPremio.Designer.cs">
       <DependentUpon>frmEntregarPremio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmPuntosManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Puntos\frmPuntosManual.Designer.cs">
+      <DependentUpon>frmPuntosManual.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
@@ -652,6 +676,15 @@
     <EmbeddedResource Include="Forms\Catalogos\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Cupones\frmCancelarCupon.resx">
+      <DependentUpon>frmCancelarCupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Cupones\frmCupon.resx">
+      <DependentUpon>frmCupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Cupones\frmEstadoCupon.resx">
+      <DependentUpon>frmEstadoCupon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Flotillas\frmConsumo.resx">
       <DependentUpon>frmConsumo.cs</DependentUpon>
     </EmbeddedResource>
@@ -691,6 +724,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Puntos\frmEntregarPremio.resx">
       <DependentUpon>frmEntregarPremio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Puntos\frmPuntosManual.resx">
+      <DependentUpon>frmPuntosManual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>

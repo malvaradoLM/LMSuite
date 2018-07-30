@@ -83,6 +83,7 @@
             this.xtpProductos = new DevExpress.XtraTab.XtraTabPage();
             this.xtpCombustible = new DevExpress.XtraTab.XtraTabPage();
             this.xtpDiferencia = new DevExpress.XtraTab.XtraTabPage();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -121,6 +122,7 @@
             // 
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Controls.Add(this.label1);
             this.groupControl1.Controls.Add(this.lookUpEdit3);
             this.groupControl1.Controls.Add(this.labelControl8);
             this.groupControl1.Controls.Add(this.textEdit4);
@@ -589,6 +591,17 @@
             this.xtpDiferencia.Size = new System.Drawing.Size(925, 330);
             this.xtpDiferencia.Text = "Diferencia";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(589, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(171, 19);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Liquidacion Cerrada";
+            // 
             // frmLiquidacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -692,5 +705,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.LabelControl labelControl9;
+        private System.Windows.Forms.Label label1;
     }
 }
