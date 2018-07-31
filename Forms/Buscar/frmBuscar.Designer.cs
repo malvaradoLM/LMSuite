@@ -119,6 +119,7 @@
             this.ClientSize = new System.Drawing.Size(712, 392);
             this.Name = "frmBuscar";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBuscar_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmBuscar_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.tbControl)).EndInit();
             this.tbControl.ResumeLayout(false);
             this.tpDatos.ResumeLayout(false);

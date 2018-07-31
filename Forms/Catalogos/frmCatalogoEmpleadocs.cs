@@ -13,7 +13,7 @@ namespace RPSuite.Forms.Catalogos
 {
     public partial class frmCatalogoEmpleadocs : RPSuite.Base.frmCatalogo
     {
-        RPSuiteServer.TDocumentoNuevo datosDocumento = new RPSuiteServer.TDocumentoNuevo();
+        //RPSuiteServer.TDocumentoNuevo datosDocumento = new RPSuiteServer.TDocumentoNuevo();
         int IDEmpleado=0;
         public frmCatalogoEmpleadocs()
         {
@@ -211,7 +211,7 @@ namespace RPSuite.Forms.Catalogos
                 {
                     AsignarCamposDocumento();
                     int res;
-                    res = Data.DataModule.DataService.GuardaDocumentoNuevo(datosDocumento);
+                    //res = Data.DataModule.DataService.GuardaDocumentoNuevo(datosDocumento);
                 }
                 else
                 {
@@ -239,13 +239,13 @@ namespace RPSuite.Forms.Catalogos
         private void AsignarCamposDocumento()
         {
             //datosDocumento.DocumentoId = Data.DataModule.DataService.Folio("DocumentoID", "");
-            datosDocumento.EmpleadoId = IDEmpleado;
-            datosDocumento.TipoDocumentoId = (int)lueTipoDocumento.EditValue;
-            datosDocumento.UsuarioId = -1;
-            datosDocumento.Observaciones = memObservaciones.Text;
-            datosDocumento.Fecha = System.DateTime.Now;
-            string ImageString = Encoding.Default.GetString(convertImagetoByteArray(pieImagen.Image));
-            datosDocumento.Imagen = ImageString;
+            //datosDocumento.EmpleadoId = IDEmpleado;
+            //datosDocumento.TipoDocumentoId = (int)lueTipoDocumento.EditValue;
+            //datosDocumento.UsuarioId = -1;
+            //datosDocumento.Observaciones = memObservaciones.Text;
+            //datosDocumento.Fecha = System.DateTime.Now;
+            //string ImageString = Encoding.Default.GetString(convertImagetoByteArray(pieImagen.Image));
+            //datosDocumento.Imagen = ImageString;
         }
 
         public static byte[] convertImagetoByteArray(Image x)

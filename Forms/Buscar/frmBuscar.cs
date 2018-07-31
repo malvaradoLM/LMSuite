@@ -16,14 +16,18 @@ namespace RPSuite.Forms.Buscar
         private List<DataParameter> Params = new List<DataParameter>();
         public DataSet cdsBusqueda { get; set; }
         public string NombreDataSet { get; set; }
+        private Form FormPadre { get; set; }
         public frmBuscar()
         {
             InitializeComponent();
         }
 
-        public frmBuscar(DataSet BusquedaDS, BindingSource BindingSource,string DataMember,string NombreForm)
+        public frmBuscar(DataSet BusquedaDS, BindingSource BindingSource,string DataMember,string NombreForm,Form frmSource)
         {
             InitializeComponent();
+            GlobalVar._BtnNuevo = false;
+            UpdateActions();
+            FormPadre = frmSource;
 
             //BindingSource
             DataSource = BindingSource;
@@ -74,13 +78,23 @@ namespace RPSuite.Forms.Buscar
             try
             {
                 Misc._ID = Int32.Parse(gvBuscar.GetRowCellValue(gvBuscar.FocusedRowHandle, gvBuscar.Columns[0]).ToString());
+                Misc._Nombre= gvBuscar.GetRowCellValue(gvBuscar.FocusedRowHandle, "Nombre").ToString();
             }
-            catch(Exception ex) { }
+            catch(Exception ex)
+            {
+                Misc._ID = null;
+            }
         }
 
         private void gvBuscar_DoubleClick(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmBuscar_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ModuleInfoCollection.MakeCurrentModule(FormPadre.GetType());
+            Actions.UpdateVisibility();
         }
     }
 }
