@@ -270,6 +270,7 @@
             // 
             // txtNumTicket
             // 
+            this.txtNumTicket.Enabled = false;
             this.txtNumTicket.Location = new System.Drawing.Point(21, 116);
             this.txtNumTicket.Name = "txtNumTicket";
             this.txtNumTicket.Size = new System.Drawing.Size(135, 20);
@@ -277,6 +278,7 @@
             // 
             // txtPrecio
             // 
+            this.txtPrecio.Enabled = false;
             this.txtPrecio.Location = new System.Drawing.Point(21, 296);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(78, 20);
@@ -284,6 +286,7 @@
             // 
             // txtCantidad
             // 
+            this.txtCantidad.Enabled = false;
             this.txtCantidad.Location = new System.Drawing.Point(21, 341);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(78, 20);
@@ -291,6 +294,7 @@
             // 
             // txtImporte
             // 
+            this.txtImporte.Enabled = false;
             this.txtImporte.Location = new System.Drawing.Point(21, 386);
             this.txtImporte.Name = "txtImporte";
             this.txtImporte.Size = new System.Drawing.Size(78, 20);
@@ -298,6 +302,7 @@
             // 
             // txtCuentaContable
             // 
+            this.txtCuentaContable.Enabled = false;
             this.txtCuentaContable.Location = new System.Drawing.Point(246, 116);
             this.txtCuentaContable.Name = "txtCuentaContable";
             this.txtCuentaContable.Size = new System.Drawing.Size(125, 20);
@@ -305,6 +310,7 @@
             // 
             // txtTurno
             // 
+            this.txtTurno.Enabled = false;
             this.txtTurno.Location = new System.Drawing.Point(246, 206);
             this.txtTurno.Name = "txtTurno";
             this.txtTurno.Size = new System.Drawing.Size(125, 20);
@@ -312,6 +318,7 @@
             // 
             // txtBomba
             // 
+            this.txtBomba.Enabled = false;
             this.txtBomba.Location = new System.Drawing.Point(246, 251);
             this.txtBomba.Name = "txtBomba";
             this.txtBomba.Size = new System.Drawing.Size(125, 20);
@@ -319,6 +326,7 @@
             // 
             // txtKilometros
             // 
+            this.txtKilometros.Enabled = false;
             this.txtKilometros.Location = new System.Drawing.Point(246, 296);
             this.txtKilometros.Name = "txtKilometros";
             this.txtKilometros.Size = new System.Drawing.Size(79, 20);
@@ -326,6 +334,7 @@
             // 
             // txtIEPS
             // 
+            this.txtIEPS.Enabled = false;
             this.txtIEPS.Location = new System.Drawing.Point(246, 341);
             this.txtIEPS.Name = "txtIEPS";
             this.txtIEPS.Size = new System.Drawing.Size(79, 20);
@@ -334,6 +343,7 @@
             // dateFecha
             // 
             this.dateFecha.EditValue = null;
+            this.dateFecha.Enabled = false;
             this.dateFecha.Location = new System.Drawing.Point(21, 161);
             this.dateFecha.Name = "dateFecha";
             this.dateFecha.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -346,6 +356,7 @@
             // dateFechaCarga
             // 
             this.dateFechaCarga.EditValue = null;
+            this.dateFechaCarga.Enabled = false;
             this.dateFechaCarga.Location = new System.Drawing.Point(21, 206);
             this.dateFechaCarga.Name = "dateFechaCarga";
             this.dateFechaCarga.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -381,6 +392,7 @@
             // 
             // bedCliente
             // 
+            this.bedCliente.Enabled = false;
             this.bedCliente.Location = new System.Drawing.Point(10, 43);
             this.bedCliente.Name = "bedCliente";
             this.bedCliente.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -392,6 +404,7 @@
             // 
             // bedVehiculo
             // 
+            this.bedVehiculo.Enabled = false;
             this.bedVehiculo.Location = new System.Drawing.Point(113, 43);
             this.bedVehiculo.Name = "bedVehiculo";
             this.bedVehiculo.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -402,6 +415,7 @@
             // 
             // txtTipo
             // 
+            this.txtTipo.Enabled = false;
             this.txtTipo.Location = new System.Drawing.Point(289, 43);
             this.txtTipo.Name = "txtTipo";
             this.txtTipo.Size = new System.Drawing.Size(66, 20);
@@ -409,6 +423,7 @@
             // 
             // txtGasolinero
             // 
+            this.txtGasolinero.Enabled = false;
             this.txtGasolinero.Location = new System.Drawing.Point(219, 43);
             this.txtGasolinero.Name = "txtGasolinero";
             this.txtGasolinero.Size = new System.Drawing.Size(65, 20);
@@ -416,6 +431,7 @@
             // 
             // bedEstacion
             // 
+            this.bedEstacion.Enabled = false;
             this.bedEstacion.Location = new System.Drawing.Point(246, 161);
             this.bedEstacion.Name = "bedEstacion";
             this.bedEstacion.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -426,6 +442,7 @@
             // 
             // bedProducto
             // 
+            this.bedProducto.Enabled = false;
             this.bedProducto.Location = new System.Drawing.Point(21, 251);
             this.bedProducto.Name = "bedProducto";
             this.bedProducto.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {

@@ -24,6 +24,21 @@ namespace RPSuite.Forms.Consumo
             GlobalVar._BtnNuevo = false;
             UpdateActions();
             Consumo = new RPSuiteServer.TConsumo();
+            HabilitarControles(true);
+        }
+
+        private void HabilitarControles(bool Estado)
+        {
+            foreach(Control ctrl in tpDatos.Controls)
+            {
+                if(ctrl is DevExpress.XtraEditors.TextEdit|| ctrl is DevExpress.XtraEditors.ButtonEdit||
+                    ctrl is DevExpress.XtraEditors.DateEdit)
+                {
+                    ctrl.Enabled = Estado;
+                }
+            }
+            bedCliente.Enabled = Estado;
+            bedVehiculo.Enabled = Estado;
         }
 
         private void bedCliente_EditValueChanged(object sender, EventArgs e)
@@ -85,6 +100,9 @@ namespace RPSuite.Forms.Consumo
             {
                 LlenarEstructuraConsumo();
                 bool Res = Data.DataModule.DataService.GenerarConsumo(Consumo);
+                GlobalVar._BtnNuevo = true;
+                UpdateActions();
+                HabilitarControles(false);
             }
             catch (Exception ex)
             {

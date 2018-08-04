@@ -363,6 +363,182 @@
         </xs:element>
         <xs:element name="spCatVehiculo" msprop:Schema="spCatVehiculo">
           <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VehiculoID" type="xs:int" />
+              <xs:element name="DigitoSeguridad" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Identificacion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Departamento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CentroCostros" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumeroEconomico" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NIP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Estatus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CargasMaximas" type="xs:int" minOccurs="0" />
+              <xs:element name="Odometro" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Firma" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Placas" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FechaAlta" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaExpira" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaBaja" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaCancelacion" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaBloqueada" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaInactiva" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Mensaje" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LimiteLTTurno" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteLTDia" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteLTSemana" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteLTMes" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteMNTurno" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteMnDia" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteMNSemana" type="xs:double" minOccurs="0" />
+              <xs:element name="LimiteMNMes" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualLtTurno" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualLTDia" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualLTSemana" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualLTMes" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualCargas" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualMNTurno" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualMNDia" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualMNSemana" type="xs:double" minOccurs="0" />
+              <xs:element name="ActualMNMes" type="xs:double" minOccurs="0" />
+              <xs:element name="Clasificacion" type="xs:double" minOccurs="0" />
+              <xs:element name="ClasificacionID" type="xs:int" />
+              <xs:element name="Generada" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Lunes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Martes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Miercoles" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Jueves" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Viernes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sabado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Domingo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ClienteID" type="xs:int" />
+              <xs:element name="GasolineroID" type="xs:int" />
+              <xs:element name="ProductoAutorizado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IngresarDirecto" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Estacion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AnteriorLTDia" type="xs:double" minOccurs="0" />
+              <xs:element name="AnteriorLTSemana" type="xs:double" minOccurs="0" />
+              <xs:element name="AnteriorLTMES" type="xs:double" minOccurs="0" />
+              <xs:element name="AnteriorMNDia" type="xs:double" minOccurs="0" />
+              <xs:element name="AnteriorMNSemana" type="xs:double" minOccurs="0" />
+              <xs:element name="AnteriorMNMes" type="xs:double" minOccurs="0" />
+              <xs:element name="PlacasNumero" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fotos" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
           </xs:complexType>
         </xs:element>
         <xs:element name="spCatGasolinero" msprop:Schema="spCatGasolinero">
