@@ -316,6 +316,12 @@
     <Compile Include="Forms\Catalogos\frmCatalogoVendedor.Designer.cs">
       <DependentUpon>frmCatalogoVendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Catalogos\frmCatVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Catalogos\frmCatVehiculo.Designer.cs">
+      <DependentUpon>frmCatVehiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Catalogos\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -672,6 +678,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Catalogos\frmCatalogoVendedor.resx">
       <DependentUpon>frmCatalogoVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Catalogos\frmCatVehiculo.resx">
+      <DependentUpon>frmCatVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Catalogos\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
