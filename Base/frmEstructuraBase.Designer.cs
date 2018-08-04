@@ -29,29 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEstructuraBase));
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "chart-line-2d-dots.png");
-            // 
-            // frmEstructuraBase
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(520, 379);
-            this.Name = "frmEstructuraBase";
-            ((System.ComponentModel.ISupportInitialize)(this.vpValidador)).EndInit();
-            this.ResumeLayout(false);
-
         }
 
         #endregion
-
-        public System.Windows.Forms.ImageList imageList1;
     }
 }

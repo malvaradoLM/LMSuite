@@ -197,8 +197,7 @@ namespace RPSuite
 
         private void tileItem7_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
-            //ModuleInfoCollection.ShowModuleByName("CatalogoReportes", this);
-            ModuleInfoCollection.ShowModuleByName("Consola", this);
+            ModuleInfoCollection.ShowModuleByName("CatalogoReportes", this);
             bvcMenuPrincipal.Close();
         }
 
@@ -394,24 +393,6 @@ namespace RPSuite
         private void tileItem8_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
 
-        }
-
-        private void tileItem6_ItemClick_1(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
-        {
-            ModuleInfoCollection.ShowModuleByName("CambioPrecios", this);
-            bvcMenuPrincipal.Close();
-        }
-
-        private void tileItem25_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
-        {
-            ModuleInfoCollection.ShowModuleByName("Cortes", this);
-            bvcMenuPrincipal.Close();
-        }
-
-        private void tileItem9_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
-        {
-            ModuleInfoCollection.ShowModuleByName("Tanques", this);
-            bvcMenuPrincipal.Close();
         }
     }
 }

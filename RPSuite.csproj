@@ -442,30 +442,6 @@
     <Compile Include="Forms\Puntos\frmPuntosManual.Designer.cs">
       <DependentUpon>frmPuntosManual.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Volumetrico\frmCambioPrecios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmCambioPrecios.Designer.cs">
-      <DependentUpon>frmCambioPrecios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmConsola.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmConsola.Designer.cs">
-      <DependentUpon>frmConsola.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmCorte.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmCorte.Designer.cs">
-      <DependentUpon>frmCorte.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmTanques.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Volumetrico\frmTanques.Designer.cs">
-      <DependentUpon>frmTanques.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -634,9 +610,6 @@
     <EmbeddedResource Include="Base\frmEstructura.resx">
       <DependentUpon>frmEstructura.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Base\frmEstructuraBase.resx">
-      <DependentUpon>frmEstructuraBase.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Base\frmPadre.resx">
       <DependentUpon>frmPadre.cs</DependentUpon>
     </EmbeddedResource>
@@ -763,18 +736,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Puntos\frmPuntosManual.resx">
       <DependentUpon>frmPuntosManual.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Volumetrico\frmCambioPrecios.resx">
-      <DependentUpon>frmCambioPrecios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Volumetrico\frmConsola.resx">
-      <DependentUpon>frmConsola.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Volumetrico\frmCorte.resx">
-      <DependentUpon>frmCorte.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Volumetrico\frmTanques.resx">
-      <DependentUpon>frmTanques.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
@@ -1177,6 +1138,8 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Forms\Volumetrico\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
