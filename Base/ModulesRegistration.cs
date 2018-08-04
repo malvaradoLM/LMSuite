@@ -11,6 +11,7 @@ using RPSuite.Forms.Inventario;
 using RPSuite.Forms.Consumo;
 using RPSuite.Forms.Puntos;
 using RPSuite.Forms.Buscar;
+using RPSuite.Forms.Volumetrico;
 
 namespace RPSuite.Base
 {
@@ -67,6 +68,11 @@ namespace RPSuite.Base
 
             ModuleInfoCollection.Add("CategoriaPuntos", typeof(frmBuscar));
 
+            //Volumetrico
+            ModuleInfoCollection.Add("Consola", typeof(frmConsola));
+            ModuleInfoCollection.Add("Cortes", typeof(frmCorte));
+            ModuleInfoCollection.Add("CambioPrecios", typeof(frmCambioPrecios));
+            ModuleInfoCollection.Add("Tanques", typeof(frmTanques));
 
 
         }

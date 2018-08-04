@@ -1887,3 +1887,8 @@ C:\LM2\LMSuite\obj\Debug\RPSuite.csproj.CoreCompileInputs.cache
 C:\LM2\LMSuite\obj\Debug\RPSuite.exe
 C:\LM2\LMSuite\obj\Debug\RPSuite.pdb
 C:\LM2\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Base.frmEstructuraBase.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmCambioPrecios.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmConsola.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmCorte.resources
+Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmTanques.resources
