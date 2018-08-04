@@ -92,21 +92,30 @@ namespace RPSuite.Forms.Consumo
             }
         }
 
-         private void LlenarEstructuraConsumo()
+        private void LlenarEstructuraConsumo()
         {
-            
-            Consumo.Tarjeta = bedCliente.Text + bedVehiculo.Text + txtGasolinero.Text + txtTipo.Text;
+
+            Consumo.Tarjeta = txtTipo.Text + txtGasolinero.Text + bedVehiculo.Text;
             Consumo.SecuenciaVenta = Convert.ToInt32(txtNumTicket.Text);
             Consumo.FechaMovimiento = dateFecha.DateTime.Date;
             Consumo.FechaCarga = dateFechaCarga.DateTime;
+            Consumo.Ejercicio = dateFechaCarga.DateTime.Year;
+            Consumo.Periodo = dateFechaCarga.DateTime.Month;
+            Consumo.Dia = dateFechaCarga.DateTime.Day;
             Consumo.Precio = Convert.ToDouble(txtPrecio.Text);
             Consumo.Cantidad = Convert.ToDouble(txtCantidad.Text);
             Consumo.Importe = Convert.ToDouble(txtImporte.Text);
+            Consumo.ImpuestoPorcentaje = 16;
+            Consumo.ImpuestoImporte = Consumo.Importe * (Consumo.ImpuestoPorcentaje / 100);
+            Consumo.Auditado = false;
             Consumo.Turno = Convert.ToInt32(txtTurno.Text);
             Consumo.PosicionCarga = Convert.ToInt32(txtBomba.Text);
             Consumo.Kilometraje = Convert.ToInt32(txtKilometros.Text);
             Consumo.IEPS = Convert.ToDouble(txtIEPS.Text);
             Consumo.FechaCaptura = System.DateTime.Today;
+            Consumo.VehiculoID = Convert.ToInt32(bedVehiculo.Text);
+            Consumo.FacturaID = 0;
+            Consumo.GasolineroID = Convert.ToInt32(txtGasolinero.Text);
         }
     }
 }

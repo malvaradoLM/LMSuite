@@ -1886,3 +1886,4 @@ C:\LM2\LMSuite\obj\Debug\RPSuite.exe.licenses
 C:\LM2\LMSuite\obj\Debug\RPSuite.csproj.CoreCompileInputs.cache
 C:\LM2\LMSuite\obj\Debug\RPSuite.exe
 C:\LM2\LMSuite\obj\Debug\RPSuite.pdb
+C:\LM2\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
