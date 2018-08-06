@@ -1897,3 +1897,8 @@ Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmConsol
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmCorte.resources
 Z:\Compartida\Proyectos\LM\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmTanques.resources
 >>>>>>> f428e6bc4c1ce9e7ac97020e054fa054393d4ed7
+C:\LM2\LMSuite\obj\Debug\RPSuite.Base.frmEstructuraBase.resources
+C:\LM2\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmCambioPrecios.resources
+C:\LM2\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmConsola.resources
+C:\LM2\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmCorte.resources
+C:\LM2\LMSuite\obj\Debug\RPSuite.Forms.Volumetrico.frmTanques.resources
