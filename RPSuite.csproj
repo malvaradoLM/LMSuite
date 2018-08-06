@@ -622,6 +622,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>spCatPremioDS.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Datasets\Catalogos\spCatVehiculoDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>spCatVehiculoDS.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Base\BaseModule.resx">
       <DependentUpon>BaseModule.cs</DependentUpon>
     </EmbeddedResource>
@@ -1117,6 +1122,17 @@
     </None>
     <None Include="Datasets\Catalogos\spCatPremioDS.xss">
       <DependentUpon>spCatPremioDS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Catalogos\spCatVehiculoDS.xsc">
+      <DependentUpon>spCatVehiculoDS.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Catalogos\spCatVehiculoDS.xsd">
+      <Generator>MSDatasetGenerator</Generator>
+      <LastGenOutput>spCatVehiculoDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\Catalogos\spCatVehiculoDS.xss">
+      <DependentUpon>spCatVehiculoDS.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

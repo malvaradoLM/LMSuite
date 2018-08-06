@@ -43,6 +43,7 @@ namespace RPSuite.Base
                 ModuleInfoCollection.Add("CatalogoFormaCompra", typeof(frmCatalogoFormaCompra));
                 ModuleInfoCollection.Add("CatalogoGrupoFactura", typeof(frmCatalogoGrupoFactura));
                 ModuleInfoCollection.Add("CatalogoUsuario", typeof(frmCatalogoUsuario));
+                ModuleInfoCollection.Add("CatalogoVehiculo", typeof(frmCatVehiculo));
 
             // Facturacion
             ModuleInfoCollection.Add("FacturacionContado", typeof(frmFacturaContado));

@@ -413,5 +413,11 @@ namespace RPSuite
             ModuleInfoCollection.ShowModuleByName("Tanques", this);
             bvcMenuPrincipal.Close();
         }
+
+        private void tileItem44_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("CatalogoVehiculo", this);
+            bvcMenuPrincipal.Close();
+        }
     }
 }

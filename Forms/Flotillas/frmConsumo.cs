@@ -135,5 +135,10 @@ namespace RPSuite.Forms.Consumo
             Consumo.FacturaID = 0;
             Consumo.GasolineroID = Convert.ToInt32(txtGasolinero.Text);
         }
+
+        private void tpDatos_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
