@@ -414,7 +414,7 @@ namespace RPSuite
             bvcMenuPrincipal.Close();
         }
 
-<<<<<<< HEAD
+
         private void timReciboCredito_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             ModuleInfoCollection.ShowModuleByName("ReciboCredito", this);
@@ -454,11 +454,12 @@ namespace RPSuite
         private void timEstadoCupon_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             ModuleInfoCollection.ShowModuleByName("EstadoCupon", this);
-=======
+            bvcMenuPrincipal.Close();
+        }
         private void tileItem44_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
             ModuleInfoCollection.ShowModuleByName("CatalogoVehiculo", this);
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             bvcMenuPrincipal.Close();
         }
     }

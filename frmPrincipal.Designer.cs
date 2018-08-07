@@ -374,13 +374,13 @@
             this.bvcMenuPrincipal.Location = new System.Drawing.Point(12, 152);
             this.bvcMenuPrincipal.Name = "bvcMenuPrincipal";
             this.bvcMenuPrincipal.OwnerControl = this.rbPrincipal;
-<<<<<<< HEAD
+
             this.bvcMenuPrincipal.SelectedTab = this.bvtCartera;
             this.bvcMenuPrincipal.SelectedTabIndex = 5;
-=======
+
             this.bvcMenuPrincipal.SelectedTab = this.bvtCatalogos;
             this.bvcMenuPrincipal.SelectedTabIndex = 7;
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             this.bvcMenuPrincipal.Size = new System.Drawing.Size(1157, 555);
             this.bvcMenuPrincipal.TabIndex = 7;
             this.bvcMenuPrincipal.SelectedTabChanged += new DevExpress.XtraBars.Ribbon.BackstageViewItemEventHandler(this.bvcMenuPrincipal_SelectedTabChanged);
@@ -1129,10 +1129,9 @@
             this.timReciboCredito.Id = 8;
             this.timReciboCredito.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.timReciboCredito.Name = "timReciboCredito";
-<<<<<<< HEAD
+
             this.timReciboCredito.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timReciboCredito_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // timReciboDebito
             // 
@@ -1144,10 +1143,9 @@
             this.timReciboDebito.Id = 9;
             this.timReciboDebito.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.timReciboDebito.Name = "timReciboDebito";
-<<<<<<< HEAD
+
             this.timReciboDebito.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timReciboDebito_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // timConciliacionFlotilla
             // 
@@ -1158,10 +1156,9 @@
             this.timConciliacionFlotilla.Id = 10;
             this.timConciliacionFlotilla.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.timConciliacionFlotilla.Name = "timConciliacionFlotilla";
-<<<<<<< HEAD
+
             this.timConciliacionFlotilla.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timConciliacionFlotilla_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // timEliminaRecibo
             // 
@@ -1173,10 +1170,9 @@
             this.timEliminaRecibo.Id = 11;
             this.timEliminaRecibo.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.timEliminaRecibo.Name = "timEliminaRecibo";
-<<<<<<< HEAD
+
             this.timEliminaRecibo.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timEliminaRecibo_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // tileGroup20
             // 
@@ -1196,10 +1192,9 @@
             this.timCupon.Id = 3;
             this.timCupon.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.timCupon.Name = "timCupon";
-<<<<<<< HEAD
+
             this.timCupon.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timCupon_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // timCancelarCupon
             // 
@@ -1211,10 +1206,9 @@
             this.timCancelarCupon.Id = 4;
             this.timCancelarCupon.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.timCancelarCupon.Name = "timCancelarCupon";
-<<<<<<< HEAD
+
             this.timCancelarCupon.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timCancelarCupon_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // timEstadoCupon
             // 
@@ -1226,10 +1220,9 @@
             this.timEstadoCupon.Id = 5;
             this.timEstadoCupon.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.timEstadoCupon.Name = "timEstadoCupon";
-<<<<<<< HEAD
+
             this.timEstadoCupon.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.timEstadoCupon_ItemClick);
-=======
->>>>>>> 7d64efad85f0702d86d42123c351a9c1c52a805a
+
             // 
             // bvcReportes
             // 
