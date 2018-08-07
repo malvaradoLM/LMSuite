@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RPSuite.Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,12 +21,56 @@ namespace RPSuite.Forms.Catalogos
             Buscar("~`|`~");
         }
 
+        public override void onNewRecord()
+        {
+            txtTarjeta.Text = Data.DataModule.DataService.Folio("VehiculoID", "").ToString();
+        }
+
+        public override void onBeforePost()
+        {
+            if (newRecordRow != null)
+            {
+                
+                newRecordRow["VehiculoID"] = Convert.ToUInt32( txtTarjeta.Text);
+                // Nota prueba 12345
+            }
+        }
+
+        public override void DoGuardar(object key, object sender, EventArgs e)
+        {
+            try
+            {
+                ConcatenarChecks();
+                onBeforePost();
+                DataSource.EndEdit();
+                if (Data.DataModule.ApplyUpdates(cdsCatalogo))
+                {
+                    State = stEstado.Browse;
+                    newRecordRow = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         private void groupControl3_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ConcatenarChecks()
         {
             ProdAut = "";
             if (chkMagna.Checked)
@@ -37,6 +82,28 @@ namespace RPSuite.Forms.Catalogos
             if (chkOtros.Checked)
                 ProdAut += "4";
             txtProdBinding.Text = ProdAut;
+        }
+
+        private void AsignarChecks()
+        {
+            for (int i = 0; i < txtProdBinding.Text.Length; i++)
+            {
+                switch (txtProdBinding.Text[i])
+                {
+                    case '1':
+                        chkMagna.Checked = true;
+                        break;
+                    case '2':
+                        chkPremium.Checked = true;
+                        break;
+                    case '3':
+                        chkDiesel.Checked = true;
+                        break;
+                    case '4':
+                        chkOtros.Checked = true;
+                        break;
+                }
+            }
         }
     }
 }

@@ -223,7 +223,6 @@ C:\LM2\LMSuite\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\LM2\LMSuite\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\LM2\LMSuite\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
 C:\LM2\LMSuite\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
-C:\LM2\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
 C:\LM2\LMSuite\obj\Debug\RPSuite.Base.BaseModule.resources
 C:\LM2\LMSuite\obj\Debug\RPSuite.Base.frmDesignReport.resources
 C:\LM2\LMSuite\obj\Debug\RPSuite.Base.frmCatalogo.resources
@@ -282,3 +281,4 @@ C:\LM2\LMSuite\obj\Debug\RPSuite.exe.licenses
 C:\LM2\LMSuite\obj\Debug\RPSuite.csproj.CoreCompileInputs.cache
 C:\LM2\LMSuite\obj\Debug\RPSuite.exe
 C:\LM2\LMSuite\obj\Debug\RPSuite.pdb
+C:\LM2\LMSuite\obj\Debug\RPSuite.csprojResolveAssemblyReference.cache
