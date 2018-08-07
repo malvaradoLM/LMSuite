@@ -6,13 +6,18 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RPSuite.Forms.Flotillas.Cupones
+namespace RPSuite.Forms.Flotillas.Recibo
 {
-    public partial class frmEstadoCupon : RPSuite.Base.frmEstructura
+    public partial class frmReciboDebito : RPSuite.Base.frmEstructura
     {
-        public frmEstadoCupon()
+        public frmReciboDebito()
         {
             InitializeComponent();
+        }
+
+        private void labelControl12_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

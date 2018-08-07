@@ -12,6 +12,8 @@ using RPSuite.Forms.Consumo;
 using RPSuite.Forms.Puntos;
 using RPSuite.Forms.Buscar;
 using RPSuite.Forms.Volumetrico;
+using RPSuite.Forms.Flotillas.Recibo;
+using RPSuite.Forms.Flotillas.Cupones;
 
 namespace RPSuite.Base
 {
@@ -60,6 +62,16 @@ namespace RPSuite.Base
 
             //Flotillas
             ModuleInfoCollection.Add("Consumo", typeof(frmConsumo));
+
+            //Cartera
+            ModuleInfoCollection.Add("ReciboCredito", typeof(frmReciboCredito));
+            ModuleInfoCollection.Add("ReciboDebito", typeof(frmReciboDebito));
+            ModuleInfoCollection.Add("EliminaRecibo", typeof(frmEliminaRecibo));
+            ModuleInfoCollection.Add("ConciliacionRecibos", typeof(frmConciliacionRecibos));
+            ModuleInfoCollection.Add("ImprimirCupon", typeof(frmCupon));
+            ModuleInfoCollection.Add("CancelarCupones", typeof(frmCancelarCupon));
+            ModuleInfoCollection.Add("EstadoCupon", typeof(frmEstadoCupon));
+
 
             //Puntos
             ModuleInfoCollection.Add("EntregarPremio", typeof(frmEntregarPremio));

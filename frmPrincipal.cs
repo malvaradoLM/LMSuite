@@ -413,5 +413,47 @@ namespace RPSuite
             ModuleInfoCollection.ShowModuleByName("Tanques", this);
             bvcMenuPrincipal.Close();
         }
+
+        private void timReciboCredito_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("ReciboCredito", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timReciboDebito_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("ReciboDebito", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timEliminaRecibo_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("EliminaRecibo", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timConciliacionFlotilla_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("ConciliacionRecibos", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timCupon_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("ImprimirCupon", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timCancelarCupon_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("CancelarCupones", this);
+            bvcMenuPrincipal.Close();
+        }
+
+        private void timEstadoCupon_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            ModuleInfoCollection.ShowModuleByName("EstadoCupon", this);
+            bvcMenuPrincipal.Close();
+        }
     }
 }

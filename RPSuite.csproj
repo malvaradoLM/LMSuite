@@ -382,6 +382,30 @@
     <Compile Include="Forms\Facturacion\frmFacturaContado.Designer.cs">
       <DependentUpon>frmFacturaContado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmConciliacionRecibos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmConciliacionRecibos.Designer.cs">
+      <DependentUpon>frmConciliacionRecibos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmEliminaRecibo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmEliminaRecibo.Designer.cs">
+      <DependentUpon>frmEliminaRecibo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmReciboCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmReciboCredito.Designer.cs">
+      <DependentUpon>frmReciboCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmReciboDebito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flotillas\Recibo\frmReciboDebito.Designer.cs">
+      <DependentUpon>frmReciboDebito.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Inventario\frmAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -736,6 +760,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Facturacion\frmFacturaContado.resx">
       <DependentUpon>frmFacturaContado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Recibo\frmConciliacionRecibos.resx">
+      <DependentUpon>frmConciliacionRecibos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Recibo\frmEliminaRecibo.resx">
+      <DependentUpon>frmEliminaRecibo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Recibo\frmReciboCredito.resx">
+      <DependentUpon>frmReciboCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flotillas\Recibo\frmReciboDebito.resx">
+      <DependentUpon>frmReciboDebito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Inventario\frmAlmacen.resx">
       <DependentUpon>frmAlmacen.cs</DependentUpon>

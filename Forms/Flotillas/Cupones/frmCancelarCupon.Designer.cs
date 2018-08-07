@@ -72,7 +72,6 @@
             // 
             // tbControl
             // 
-            this.tbControl.SelectedTabPage = this.tpDatos;
             this.tbControl.Size = new System.Drawing.Size(534, 421);
             this.tbControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.tpLote});
@@ -126,7 +125,7 @@
             this.gridControl1.Location = new System.Drawing.Point(11, 160);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(326, 262);
+            this.gridControl1.Size = new System.Drawing.Size(504, 221);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});

@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace RPSuite.Forms.Flotillas.Cupones
+namespace RPSuite.Forms.Flotillas.Recibo
 {
-    public partial class frmEstadoCupon : RPSuite.Base.frmEstructura
+    public partial class frmEliminaRecibo : RPSuite.Base.frmEstructuraBase
     {
-        public frmEstadoCupon()
+        public frmEliminaRecibo()
         {
             InitializeComponent();
         }

@@ -13,6 +13,23 @@ namespace RPSuite.Forms.Volumetrico
         public frmConsola()
         {
             InitializeComponent();
+
+            CargarConsola();
         }
+
+    
+        private void CargarConsola()
+        {
+            
+            //ListViewItem lvi = new ListViewItem();
+            //lvi.SubItems.Add("Bomba1");
+            //lvi.SubItems.Add("Bomba1");
+            //lvi.SubItems.Add("Bomba1");
+
+            //lstwConsola.Items.Add(lvi);
+        }
+
     }
+
+
 }
