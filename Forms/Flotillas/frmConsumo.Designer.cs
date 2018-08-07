@@ -131,6 +131,7 @@
             this.tpDatos.Controls.Add(this.labelControl3);
             this.tpDatos.Controls.Add(this.labelControl2);
             this.tpDatos.Size = new System.Drawing.Size(710, 419);
+            this.tpDatos.Paint += new System.Windows.Forms.PaintEventHandler(this.tpDatos_Paint);
             // 
             // labelControl2
             // 
